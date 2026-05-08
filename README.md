@@ -1,7 +1,3 @@
-# Anonymous repro bundle
-
-Minimal inputs for the paper numbers and figures.
-
 ## Run
 
 ```bash
