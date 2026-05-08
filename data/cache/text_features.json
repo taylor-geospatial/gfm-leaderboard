@@ -1,0 +1,1735 @@
+{
+  "A2-MAE_A_spatial-temporal-spectral_unified_remote_sensing_pre-training_method_based_on_anchor-aware_masked_autoencoder.pdf": {
+    "gpu_count_max": 80,
+    "gpu_count_median": 80,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 79014,
+    "training_days_median": null
+  },
+  "A_Sentinel-3_foundation_model_for_ocean_colour.pdf": {
+    "gpu_count_max": 4,
+    "gpu_count_median": 4,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 44650,
+    "training_days_median": 0.5
+  },
+  "A_generalizable_and_accessible_approach_to_machine_learning_with_global_satellite_imagery.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "V100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 64567,
+    "training_days_median": null
+  },
+  "AlphaEarth.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 183395,
+    "training_days_median": null
+  },
+  "AnySat_An_Earth_Observation_Model_for_Any_Resolutions_Scales_and_Modalities.pdf": {
+    "gpu_count_max": 8,
+    "gpu_count_median": 8,
+    "gpus": [
+      "H100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 72713,
+    "training_days_median": 73.33
+  },
+  "BillionPFM.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 97247,
+    "training_days_median": null
+  },
+  "Bridging_Remote_Sensors_with_Multisensor_Geospatial_Foundation_Models.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 50838,
+    "training_days_median": null
+  },
+  "CACo_Change-Aware_Sampling_and_Contrastive_Learning_for_Satellite_Images.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 45344,
+    "training_days_median": null
+  },
+  "CGEarthEye.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 62008,
+    "training_days_median": null
+  },
+  "CMC_with_EO_for_SAR_Semantic_Segmentation.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 26896,
+    "training_days_median": null
+  },
+  "CMID.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 1500,
+    "limitations_text": "in incorporating both global semantic separability\nand local spatial perceptibility due to the inherent limitations\nof CL or MIM methods (Fig. 1). Specifically, CL utilizes\nwhole-image representations to capture inter-image relation-\nships by integrating global semantic information, which en-\nhances the separation of representations between different\ncategories or semantics in the feature space, leading to rep-\nresentations with global semantic separability and improved\nperformance in tasks such as linear probing and classifica-\ntion [31], [32]. Hence, as CL merely concentrates on the\ninter-image semantic relationships and ignores the intra-image\nstructure, it fails to perceive the semantic information at\ndifferent spatial locations within the images and thus perform\npoorly in dense prediction tasks such as object detection\nand semantic segmentation [33]. On the other hand, MIM\nlearns the intra-image structure and perceives the contextual\ninformation of each pixel within an image, resulting in the\nlearned representations possess local spatial perceptibility with\nthe expense of global semantic separability. As a result,\nMIM pre-trained models perform well in dense prediction\ntasks but are not as effective in the classification task. [29],\n[30]. We argue that the most appropriate SSL method for\nRS images should enhance the performance of the modelin various downstream tasks, which means that the learned\nrepresentations should be both global semantic separable and\nlocal spatial ",
+    "text_chars": 92219,
+    "training_days_median": null
+  },
+  "CROMA_Remote_Sensing_Representations_with_Contrastive_Radar-Optical_Masked_Autoencoders.pdf": {
+    "gpu_count_max": 8,
+    "gpu_count_median": 8,
+    "gpus": [
+      "A100",
+      "V100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 104196,
+    "training_days_median": null
+  },
+  "CRS-Diff.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 68811,
+    "training_days_median": null
+  },
+  "CSMAE.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 74487,
+    "training_days_median": null
+  },
+  "CSPT.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 105520,
+    "training_days_median": null
+  },
+  "CSP_Self-Supervised_Contrastive_Spatial_Pre-Training_for_Geospatial-Visual_Representations.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 79734,
+    "training_days_median": null
+  },
+  "Changen2_Multi-Temporal_Remote_Sensing_Generative_Change_Foundation_Model.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 89630,
+    "training_days_median": null
+  },
+  "Continual_Barlow_Twins_for_RS_Semantic_Segmentation.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 43161,
+    "training_days_median": null
+  },
+  "ContrastCLIP_RS_groundlevel_satellite_pretraining.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 96700,
+    "training_days_median": null
+  },
+  "Contrastive_Self-Supervised_Data_Fusion_for_Satellite_Imagery.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 39690,
+    "training_days_median": null
+  },
+  "Cross-Scale_MAE_A_Tale_of_Multiscale_Exploitation_in_Remote_Sensing.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 48161,
+    "training_days_median": null
+  },
+  "Cross-Sensor_Self-Supervised_Training_and_Alignment_for_Remote_Sensing.pdf": {
+    "gpu_count_max": 8,
+    "gpu_count_median": 8,
+    "gpus": [
+      "RTX6000",
+      "V100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 66476,
+    "training_days_median": null
+  },
+  "CrossEarth_Geospatial_Vision_Foundation_Model_for_Domain_Generalizable_Remote_Sensing_Semantic_Segmentation.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "V100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 145982,
+    "training_days_median": null
+  },
+  "CtxMIM_Context-Enhanced_Masked_Image_Modeling_for_Remote_Sensing_Image_Understanding.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "V100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 1500,
+    "limitations_text": "and future work . Although CtxMIM is a simple\nyet powerful MIM method for remote sensing pretraining,\nwe argue that collaborative learning by combining contrastive\nand reconstructive learning can yield robust representations for\nremote sensing analysis.\nIn future work, we will explore a new paradigm of col-\nlaborative learning, design a more efficient mask strategy,and employ patch pairs of masked and original to jointly\nembed contrastive learning into reconstructive learning. With\nthe simple pipeline and the solid performance, we hope this\nwork will inspire other works, not just in the remote sensing\ncommunity but also in the industry and medical image analysis\ncommunity.\nVI. C ONCLUSION\nThis paper presents CtxMIM, a simple yet efficient masked\nimage modeling for remote sensing representation learning.\nCtxMIM is built on the insight that the high object density\nin remote sensing images significantly impedes semantic rea-\nsoning for reconstructive learning due to missing contextual\ninformation. Therefore, CtxMIM utilizes the original patches\nand introduces a context-enhanced generative branch, which\ncan provide contextual information through the context con-\nsistency constraint. Finally, we train CtxMIM by collecting a\nlarge-scale unlabeled remote sensing dataset with 1.28 million\nimages covering rich topography and terrain. Comprehensive\nexperiments on land cover classification, semantic segmenta-\ntion, object detection, and instance segmentation demonstrate\nthat CtxMIM lear",
+    "text_chars": 57351,
+    "training_days_median": null
+  },
+  "DINO-MC_Self-supervised_Contrastive_Learning_for_Remote_Sensing_Imagery_with_Multi-sized_Local_Crops.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 49984,
+    "training_days_median": null
+  },
+  "DOFA_Neural_Plasticity-Inspired_Foundation_Model_for_Observing_the_Earth_Crossing_Modalities.pdf": {
+    "gpu_count_max": 32,
+    "gpu_count_median": 32,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 73876,
+    "training_days_median": 9.0
+  },
+  "DeCUR_Decoupling_Common_and_Unique_Representations_for_Multimodal_Self-supervised_Learning.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 61979,
+    "training_days_median": null
+  },
+  "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sensing_Imagery_of_the_Andes.pdf": {
+    "gpu_count_max": 8,
+    "gpu_count_median": 8,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 84220,
+    "training_days_median": null
+  },
+  "Depth_Any_Canopy.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 36988,
+    "training_days_median": null
+  },
+  "DiffusionSat_A_Generative_Foundation_Model_for_Satellite_Imagery.pdf": {
+    "gpu_count_max": 8,
+    "gpu_count_median": 4,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 65050,
+    "training_days_median": null
+  },
+  "DynamicVis.pdf": {
+    "gpu_count_max": 8,
+    "gpu_count_median": 8,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 1500,
+    "limitations_text": ". By leveraging a Context-Preserving Incre-\nmental Connection, the architecture retains unselected\nbackground tokens via parameter-free residual links,\nguaranteeing the macroscopic structural continuity\nrequired for pixel-level mapping.\n13\n(a)\n(b)\n(c)\n(d)Fig. 9: Qualitative segmentation results generated by DynamicVis-L on the\nSAR-based SSDD test set. Left: Ground-truth annotations; Right: Model pre-\ndictions. The model easily adapts to extreme modality-specific noise.\n4.3.1 Bi-temporal Change Detection\nDatasets & Implementations:Change detection is\ninherently a sparse prediction task, as temporal dis-\ncrepancies typically occupy a minimal fraction of\nbi-temporal image pairs. We comprehensively eval-\nuate the proposed framework on three standard\nbenchmarks encompassing diverse data sources, spa-\ntial scales, and resolutions: LEVIR-CD [125] (0.5m\nGoogle Earth imagery), WHU-CD [126] (0.3m aerial\nimagery of disaster-affected regions), and OSCD [127]\n(multi-resolution Sentinel-2 multispectral imagery).\nBi-temporal image pairs are fed into the pre-trained\nDynamicVis backbone to extract hierarchical multi-\nscale features, which are then concatenated and pro-\ncessed by an MLP decoder. The network is optimized\nusing a composite objective of Cross-Entropy and Dice\nloss via the AdamW optimizer for 300 epochs. Input\nimages are standardized to 512\u00d7512 or 256\u00d7256\npatches, with a 2\u00d7variant utilizing bilinear upsamplingto double spatial dimensions and preserve fine-grained\nstructural detail",
+    "text_chars": 129795,
+    "training_days_median": null
+  },
+  "EarthDial_Turning_Multi-sensory_Earth_Observations_to_Interactive_Dialogues.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 92578,
+    "training_days_median": null
+  },
+  "EarthGPT_A_Universal_Multi-modal_Large_Language_Model_for_Multi-sensor_Image_Comprehension_in_Remote_Sensing_Domain.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 972,
+    "limitations_text": ". Notably, RSGPT has to tune the model for each\ntask individually, leading to the lack of generalizable ability\nin the open-set domain. RSGPT also struggles with tasks like\nclassification, detection, and visual grounding. In addition,\nGeoChat is trained on optical RS images and lacks the multi-\nsensor datasets to realize synthetic aperture radar (SAR), and\ninfrared modalities comprehension. It is clear that the study\nof MLLM in the RS domain is still in its infancy. To address\nthese problems thoroughly, this paper aims to unify a wide\nrange of RS tasks and concentrates on constructing a large-\nscale multi-modal dataset containing multi-sensor RS images\nbased on diverse existing RS datasets.\nTo leverage the robust generalization and emergent ability\nof large language models (LLMs), a versatile MLLM called\nEarthGPT is proposed for multi-sensor RS image compre-\nhension, unifying various RS interpretation tasks effectively.arXiv:2401.16822v3  [cs.CV]  8 Mar 2024",
+    "text_chars": 89858,
+    "training_days_median": null
+  },
+  "EarthMarker.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 335,
+    "limitations_text": "hamper the development of more complex and\nfine-grained RS imagery understanding, therefore this paper\nfocuses on filling this gap.\nIII. M ETHODOLOGY\nWe first overview the overall model architecture in Section\nIII-A. Subsequently, the three-phase continuous training strat-\negy of the proposed EarthMarker is detailed in Section III-B.",
+    "text_chars": 100547,
+    "training_days_median": null
+  },
+  "EarthPT_a_time_series_foundation_model_for_Earth_Observation.pdf": {
+    "gpu_count_max": 560,
+    "gpu_count_median": 560,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 1500,
+    "limitations_text": "Foundation models are notoriously flexible, and so one can envision myriad downstream tasks. In\nthe field of geospatial data analysis, we can consider how EarthPT could be deployed for land cover\nclassification. To illustrate, we generate representation embeddings by extracting the outputs of the\npenultimate neuronal layer and obtain the embedding of a pixel\u2019s time series by simply taking the\nmean of all of its output embeddings (one embedding is output at each time step). Each embedding\nhas a dimensionality of 1280, but we can visualise them by projecting onto a two-dimensional\nmanifold. We use principle component analysis (PCA) as our projection technique [24]. Figure 3\nshows a selection of emergent remote sensing indices (introduced above) for a set of embeddings\nof time series across 2022. By colour-coding the projected embedding space we see that it has\na physically meaningful organisation, with coherent structure of, for example, the time-averaged\nNDVI, BSI, RGB, etc. If we were to cluster and calibrate the embedding space with semantically\nmeaningful labels (e.g. crop type, growth stage, event) this could be used to create a dynamic and\nhighly granular land cover classifier. Furthermore, we anticipate that fine-tuning with EarthPT-learnt\nembeddings will be beneficial for a range of downstream tasks [see for example 17, 25]. One could\nimagine training EarthPT to produce a single embedding space for all EO (and other) multi-modal\ndata types [26]. This would be remarkably",
+    "text_chars": 23744,
+    "training_days_median": null
+  },
+  "EarthView_A_Large_Scale_Remote_Sensing_Dataset_for_Self-Supervision.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 1500,
+    "limitations_text": ". Most sites contain a maximum of 3 revisits and\nthe exact date was not collected. Nevertheless, we matched\nall available revisits for each location that we collected.\n3.4. Hosting and Storage\nHosting Through a partnership with HuggingFace, data\nis made available at their servers.This offers a free download\nand broad access to the whole community. For other\ncommercial cloud providers, even if hosting were free,\nTable 1. Dataset overview\nSensor # bands GSD (m) Pixel per patch area (m) # revisits # patches # Giga gray pixels\nSatellogic RGBN 4 1 384 x 384 384 x 384 1 - 5 2967663 3636.85\nSentinel-1 SAR 2 10 384 x 384 3840 x 3840 3 - 9 1049466 1743.61\nSentinel-2 MS 13 10, 20, 60 384 x 384 3840 x 3840 10 1049466 9086.36\nNEON-RGB RGB 3 0.1 640 x 640 64 x 64 3 35501 130.87\nNEON-Hyper HS 369 1 64 x 64 64 x 64 3 35501 160.97\nNEON-Elev Lidar 1 1 64 x 64 64 x 64 3 35501 0.44\n       Source \n   Sentinel 2 \n   Sentinel 1 \n   Neon \n   Satellogic \nFigure 4. Temporal distribution of the dataset. NEON data only\nprovides the year, and Satellogic data does not contain the time of\nthe day.\ndownloading 15 TB of data as requester pays would cost on\nthe scale of 1000 USD per download.\nStorage For accessibility and to minimize bandwidth, we\nstore the dataset in functional subsets. That is, each of the\ndifferent sensors can be downloaded separately. Moreover,\neach subset is split into shards and these can be downloaded\nindependently, this allows the user to download only a set\nof the data if needed. Ea",
+    "text_chars": 58552,
+    "training_days_median": null
+  },
+  "Embedding_Earth_Self-supervised_contrastive_pre-training_for_dense_land_cover_classification.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 76190,
+    "training_days_median": null
+  },
+  "FLAVARS_A_Multimodal_Foundational_Language_and_Vision_Alignment_Model_for_Remote_Sensing.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 23015,
+    "training_days_median": null
+  },
+  "Falcon_A_Remote_Sensing_Vision-Language_Foundation_Model.pdf": {
+    "gpu_count_max": 160,
+    "gpu_count_median": 160,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 128609,
+    "training_days_median": null
+  },
+  "Feature_Guided_Masked_Autoencoder_for_Self-supervised_Learning_in_Remote_Sensing.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 1500,
+    "limitations_text": "of this work is that we can not make the best useof scale-invariant features such as SIFT / SAR-SIFT out-of-\nthe-box. However, we believe these features are of great value\nwith proper and more sophisticated design. Scale-MAE [25],\nfor example, though not directly inspired by SIFT, shares a\nsimilar idea and provides promising insights.\nAnother limitation, as we have mentioned, is that both\nMAE and FG-MAE scale well to larger backbones in linear\nprobing, but not in fine tuning. As we are entering the era\nof big EO foundation models, how to effectively transfer the\nfoundation knowledge remains an important but not yet well-\nstudied problem.\nThere are also two interesting thoughts that we believe\ndeserve further investigation. First, we have shown a relatively\npoor performance in reconstructing raw SAR images because\nof the effect of speckle noise. However, what if we reconstruct\nthe despeckled images instead? SAR-despeckling has been\nwidely studied and there are many well-developed algorithms.\nIf integrated into MAE pretraining, would it help the model\nprevent confusion due to noise? Second, the reconstructed\nSAR features sometimes seem to be clearer than the corre-\nsponding noisy ground truth. This may inspire a promising\ndirection for low-level tasks, including the aforementioned\nSAR-despeckling.\nACKNOWLEDGEMENT\nThis work was funded by the Helmholtz Associa-\ntion through the Framework of Helmholtz AI, grant ID:\nZT-I-PF-5-01 \u2013Local Unit Munich Unit @Aeronautics,\nSpace and Trans",
+    "text_chars": 51422,
+    "training_days_median": null
+  },
+  "FlexiMo_A_Flexible_Remote_Sensing_Foundation_Model.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "RTX4090"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 1500,
+    "limitations_text": ", subsequent researchers have pursued several av-\nenues to optimize network architectures based on the ViT. On\none front, efforts have focused on integrating the hierarchical\ndesign of convolutional neural networks with transformers\nto enable the simultaneous learning of global and local fea-\ntures. For example, the Swin-Transformer [16] introduces a\nhierarchical window-based attention mechanism that preserves\nthe transformer\u2019s ability to model long-range dependencies\nand, through window partitioning, enhances the focus on\nlocal details. In parallel, considerable improvements have\nbeen achieved by refining the self-attention mechanism itself,\nas demonstrated by approaches like Linear Attention [17].\nFurthermore, lightweight design has emerged as a crucial\noptimization direction. For example, EfficientViT [18] refines\nmodel architecture to decrease resource consumption while\npreserving performance. Despite these advancements, the in-\ncreasing complexity of image data has presented new chal-\nlenges. During fine-tuning or inference, model performance\noften declines noticeably when the image size changes. To\naddress this issue, various studies have been conducted. For\nexample, FlexViT [19] introduces multiple patch embedding\nsizes during training to segment images and capture fine-\ngrained information at different scales; ViTAR [20] accepts\nmulti-size images and incorporates fuzzy position encoding tobetter adapt to varying image dimensions; and MSPE [21]\nemploys a training strat",
+    "text_chars": 63907,
+    "training_days_median": null
+  },
+  "FoMo-Bench_a_multi-modal_multi-scale_and_multi-task_Forest_Monitoring_Benchmark_for_remote_sensing_foundation_models.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 1094,
+    "limitations_text": "and next steps: While FoMo-Bench offers\nstrong baselines across a broad range of forest monitoring\ntasks, assessing the true capability of flexible foundation\nmodels requires more than just performance metrics. Given\nthe diversity in input modalities we need methods to evaluate\nhow well these flexible models recognize the unique char-\nacteristics of each modality, their inter-modal relationships,\nand the features of the Earth\u2019s surface across multiple scales.\nAlso, as FoMo-Net tokenizes spectral bands independently\nthe amount of tokens per sample increases proportionally to\nthe number of spectral bands, creating a computational bot-\ntleneck due to the memory requirements and the quadratic\ncomplexity of attention posing challenges for scalability and\nmaking optimization a priority. Given PolyNet\u2019s potential,\ncombining FoMo-Net with supervised pre-training might re-\nsult in a flexible pre-training method usable under variable\ncomputational constraints and with variable amounts of la-\nbeled data. Finally, extending FoMo-Net to non-grid data,\ne.g.point clouds, could prove valuable.",
+    "text_chars": 58048,
+    "training_days_median": null
+  },
+  "Fus-MAE_A_cross-attention-based_data_fusion_approach_for_Masked_Autoencoders_in_remote_sensing.pdf": {
+    "gpu_count_max": 2,
+    "gpu_count_median": 2,
+    "gpus": [],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 24169,
+    "training_days_median": null
+  },
+  "GAIR_Improving_Multimodal_Geo-Foundation_Model_with_Geo-Aligned_Implicit_Representations.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 73954,
+    "training_days_median": null
+  },
+  "GASSL.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 47794,
+    "training_days_median": null
+  },
+  "GEO-Bench_Toward_Foundation_Models_for_Earth_Monitoring.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 890,
+    "limitations_text": "Our benchmark does not extensively evaluate all desired features of a pre-trained model\nfor earth monitoring. For example, it does not evaluate its ability to fine-tune temporal data nor perform\nfusion with other types of data such as text or weather. The spatial coverage of the benchmark covers\nmost continents and improves coverage over individual datasets. However, the spatial coverage could\nstill be largely improved to include a much wider range of countries and biomes. Finally, as pre-trained\nmodels become stronger, they will get closer to the theoretical limit of generalization performance, i.e.\napproaching the aleatoric uncertainty of the dataset. Under such a regime, we expect a bigger overlap\nbetween error bars when comparing 2 different models.\nReferences\nDiab Abuaiadah and Alexander Switzer. Remote sensing dataset for detecting cows from high resolution aerial images.",
+    "text_chars": 75197,
+    "training_days_median": null
+  },
+  "GFM.pdf": {
+    "gpu_count_max": 768,
+    "gpu_count_median": 768,
+    "gpus": [
+      "V100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 59431,
+    "training_days_median": 4.17
+  },
+  "GRAFT.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 772,
+    "limitations_text": ": One limitation of GRAFT is that it is difficult to capture dynamic objects in satellite\nimages. Our models cannot align satellite images with internet images of dynamic objects because\nof the low revisit rate of satellites. Fig. 6 shows top retrieval for concepts like \u2018cargo ship\u2019. While\nGRAFT cannot find such dynamic objects, it can still retrieve where they might potentially be found.\nUsing a higher temporal resolution (daily revisit) is a way to handle this problem in the future. Please\nrefer to the supplementary (Appendix F) for more potential directions of improvement.\nConclusions: We present GRAFT\u2014 a method to train vision-language models for satellite images\nthat can be used for a diverse set of vision problems in remote sensing. To train this model, we",
+    "text_chars": 63824,
+    "training_days_median": null
+  },
+  "Galileo_Learning_Global_Local_Features_of_Many_Remote_Sensing_Modalities.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "H100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 85873,
+    "training_days_median": null
+  },
+  "Generic_Knowledge_Boosted_Pre-training_For_Remote_Sensing_Images.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 77447,
+    "training_days_median": null
+  },
+  "GeoCLIP_Clip-Inspired_Alignment_between_Locations_and_Images_for_Effective_Worldwide_Geo-localization.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 1059,
+    "limitations_text": ": As we use a CLIP-based backbone in our image encoder, precomputing the image\nfeatures on the large training dataset (each image of dimension 224\u00d7224\u00d73) is time-consuming.\nBut once the features are precomputed, the training of our GeoCLIP model is relatively fast. We also\nobserved that a single \u03c3value used in RFF is insufficient to perform well on both small and large\nareas. However, our hierarchical learning is a promising direction to overcome this issue.\nBroader Impacts : Our image-based geo-localization can act as a substitute for GPS-based localiza-\ntion in scenarios where GPS signals are unreliable, blocked, or inaccurate. Combining image-based\ngeo-tagging with GPS-based positioning systems can help to improve stability and safety in applica-\ntions like autonomous driving and navigation. Also, it can benefit digital forensics, but avoiding its\nunethical use that could mislead location detection systems or violate privacy is important. More\ndiscussion on ethical issues and possible mitigation approaches are provided in the supplementary.",
+    "text_chars": 77132,
+    "training_days_median": null
+  },
+  "GeoChat_Grounded_Large_Vision-Language_Model_for_Remote_Sensing.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 48505,
+    "training_days_median": null
+  },
+  "GeoKR.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 69354,
+    "training_days_median": null
+  },
+  "GeoLangBind_Unifying_Earth_Observation_with_Agglomerative_Vision-Language_Foundation_Models.pdf": {
+    "gpu_count_max": 8,
+    "gpu_count_median": 8,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 72615,
+    "training_days_median": null
+  },
+  "GeoPixel.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 564,
+    "limitations_text": "may focus on addressing these challenges\nby incorporating more robust masking strategies and dy-\nnamic resolution adjustment techniques to improve segmen-\ntation accuracy in complex scenes. Additionally, extending\nGeoPixel\u2019s capabilities to integrate multimodal data, such as\nSynthetic Aperture Radar (SAR) or infrared imagery, could\nsignificantly enhance its ability to analyze diverse remote\nsensing datasets. GeoPixel is a significant step forward\nin leveraging the potential of LMMs for remote sensing,\nopening new avenues for research in this critical domain.",
+    "text_chars": 61966,
+    "training_days_median": null
+  },
+  "GeoViT_A_Versatile_Vision_Transformer_Architecture_for_Geospatial_Image_Analysis.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 12446,
+    "training_days_median": null
+  },
+  "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 94257,
+    "training_days_median": null
+  },
+  "Global_and_Local_Contrastive_Self-Supervised_Learning_for_Semantic_Segmentation_of_HR_Remote_Sensing_Images.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 71105,
+    "training_days_median": null
+  },
+  "HSIGene.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 69644,
+    "training_days_median": null
+  },
+  "HyperFree_A_Channel-adaptive_and_Tuning-free_Foundation_Model_for_Hyperspectral_Remote_Sensing_Imagery.pdf": {
+    "gpu_count_max": 8,
+    "gpu_count_median": 8,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 79368,
+    "training_days_median": null
+  },
+  "HyperSIGMA.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 202842,
+    "training_days_median": null
+  },
+  "IaI-SimCLR_Multi-Modal_Multi-Objective_Contrastive_Learning_for_Sentinel-12_Imagery.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 38439,
+    "training_days_median": null
+  },
+  "In-domain_representation_learning_for_remote_sensing.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 44491,
+    "training_days_median": null
+  },
+  "LHRS-Bot-Nova.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 67223,
+    "training_days_median": null
+  },
+  "LHRS-Bot_Empowering_Remote_Sensing_with_VGI-Enhanced_Large_Multimodal_Language_Model.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 1500,
+    "limitations_text": "of public image-caption datasets, which typically lack bounding box\nannotations, and the constrained capabilities of Vicuna-v1.5-13B [10], the gener-\nated conversations might omit crucial details such as the locations and quantity\nofobjectsintheimages,alongwithvisualreasoninginformation.Tomitigatethis\nissue, we meticulously select 15K representative RS images that are rich in at-\ntribute information from our LHRS-Align dataset. We then proceed to calculate\nthe bounding boxes for various objects within these images, utilizing the built-in\nspatial coordinates of different attributes in the OSM database. Leveraging this\nenriched data, we prompt GPT-4 to craft complex instruction data that incorpo-\nrates visual reasoning, detailed image descriptions, and conversations about the\nlocation and number of objects. The final step involves a manual cleaning of the\ngenerated results. This process yields a dataset comprising 0.9K samples about\nvisual reasoning, 4K samples about detailed image description, and 7K samples\nabout conversation. For more details, please refer to supplementary material.\n2.3 RS-specific MLLM Evaluation Benchmark\u2014\u2014LHRS-Bench\nWe construct LHRS-Bench to evaluate the performance of MLLMs in the RS\ndomain. LHRS-Bench employs hierarchical taxonomies to comprehensively eval-\nuate MLLMs across various dimensions (Tab. 1). To prevent data leakage, we\nabstain from using public RS datasets and instead meticulously collect images\nfrom Google Earth.In terms of question format",
+    "text_chars": 91015,
+    "training_days_median": null
+  },
+  "LeMeViT.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "RTX4090"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 61855,
+    "training_days_median": null
+  },
+  "MA3E_Masked_Angle-Aware_Autoencoder_for_Remote_Sensing_Images.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "RTX3090"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 880,
+    "limitations_text": ". Despite MA3E demonstrates the potential of angle awareness,\nin many RS scenarios, the angles of only man-made objects require more em-\nphasis. For extensive land cover, the model may not benefit significantly from\nangle information. In future work, we will consider the scale that exists in any\nRS scene and further explore the combination of angles for man-made objects\nand scale for land cover.\nMasked Angle-Aware Autoencoder 15\nAcknowledgements\nThis work is supported in part by the National Natural Science Foundation\nof China under Grant 62171347, 62101405, 62371373, 62271377; 111 Project;\nthe Postdoctoral Fellowship Program of China Postdoctoral Science Foundation\nunder Grant GZC20232036, GZC20232032; the Shaanxi Province postdoctoral\nresearch project under Grant 2023BSHEDZZ168, 2023BSHYDZZ96; the Funda-\nmental Research Funds for the Central Universities.\nReferences",
+    "text_chars": 64660,
+    "training_days_median": null
+  },
+  "MAESTRO.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 130135,
+    "training_days_median": null
+  },
+  "MAPEX.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 49360,
+    "training_days_median": null
+  },
+  "MM-VSF_Towards_Knowledge_Guided_Pretraining_Approaches_for_Multimodal_Foundation_Models_in_Remote_Sensing.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 109180,
+    "training_days_median": null
+  },
+  "MMEarth.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 71869,
+    "training_days_median": null
+  },
+  "MTP_Advancing_Remote_Sensing_Foundation_Model_via_Multi-Task_Pretraining.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "V100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 117177,
+    "training_days_median": null
+  },
+  "Major_TOM_Expandable_Datasets_for_Earth_Observation.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 24777,
+    "training_days_median": null
+  },
+  "MetaEarth_A_Generative_Foundation_Model_for_Global-Scale_Remote_Sensing_Image_Generation.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "RTX4090"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 84918,
+    "training_days_median": null
+  },
+  "OFA-Net.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 18851,
+    "training_days_median": null
+  },
+  "OReole-FM_successes_and_challenges_toward_billion-parameter_foundation_models_for_high-resolution_satellite_imagery.pdf": {
+    "gpu_count_max": 2048,
+    "gpu_count_median": 1024,
+    "gpus": [
+      "A100",
+      "MI250",
+      "TPUV4"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 58842,
+    "training_days_median": null
+  },
+  "OlmoEarth_Stable_Latent_Image_Modeling_for_Multimodal_Earth_Observation.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "H100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 75456,
+    "training_days_median": null
+  },
+  "OmniSat_Self-Supervised_Modality_Fusion_for_Earth_Observation.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 500,
+    "limitations_text": ". All datasets used in our experiments are based in Europe, primarily due\nto the availability of open-access annotations. This regional focus prevents us from\nevaluating our model\u2019s performance in tropical and developing countries, which present\nunique challenges in terms of label provision, heterogeneity, and complex classes.\nA limitation of our pre-training scheme is its dependence on a sufficient number of\naligned modalities, as illustrated by its moderate impact on the bimodal FLAIR dataset.",
+    "text_chars": 72511,
+    "training_days_median": null
+  },
+  "PANGAEA_A_Global_and_Inclusive_Benchmark_for_Geospatial_Foundation_Models.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 1500,
+    "limitations_text": ". A key issue is that many of these benchmarks focus on highly specific domains , making them valuable for\ntargeting specific performance metrics but limiting their applicability from a more generalist perspective.\nFor example, PhilEO Bench [ 9] proposed a benchmark dataset comprising Sentinel-2 images, annotated for three\ndownstream semantic segmentation tasks: building density estimation, road segmentation, and land cover classification.\nFoMo-Bench [ 145] targets forest monitoring with datasets covering classification, segmentation, and detection tasks,\nwhereas [13] focuses on agriculture, selecting six crop classification datasets sourced from five continents.\nOther benchmarks, however, overlook certain critical tasks (e.g. change detection) and fail to account for a pivotal\ncharacteristic of EO data: multi-temporality . For instance, EarthNets [ 19] provides a benchmark after analyzing\npublished datasets, including fMoW [ 32] and BigEarthNet [ 27] for classification; DIOR [ 33] and fMoW [ 32] for object\ndetection; and GeoNRW [ 146] and SEASONET [ 147] for semantic segmentation. While these datasets contribute\nvaluable benchmarks for various tasks, they overlook the temporal aspect that is crucial for many geospatial models.\nAlso, GEO-Bench [ 10] adapts and curates six classification and six segmentation datasets with diverse modalities and\nspatial resolutions, yet still does not fully incorporate the temporal dimension of EO data. Finally, SustainBench [ 11],\nthough one o",
+    "text_chars": 189625,
+    "training_days_median": null
+  },
+  "PIEViT.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 1500,
+    "limitations_text": "on the methods above. For instance, in contrastive\nlearning, random cropping to generate positive sample pairsarXiv:2411.06091v1  [cs.CV]  9 Nov 2024\n2\nmay result in two images with completely dissimilar features\ndue to the scenographic nature of remote sensing images,\npotentially leading to semantic confusion in the model. Pixel-\nlevel masked learning, on the other hand, entirely disregards\nsemantic information.\nSeeking a method that discerns both the semantic informa-\ntion of different scene images and the semantic details within\neach area of the images is essential for effectively processing\nscenographic remote sensing imagery. It has been observed\nthat scenographic images in remote sensing typically exhibit\nspecific distribution patterns, where natural elements (such\nas mountains, bodies of water, forests, lakes, and grasslands)\nand man-made elements (such as buildings, farmlands, plowed\nlands, and gardens) often display pronounced clustering. This\ntendency for feature aggregation leads to the formation of\ndiscernible geographic pattern clusters among individual im-\nage patches and their neighbors, thereby establishing intricate\nspatial relationships across the varying patches and their\nadjacent areas.\nBuilding on these observations, we introduce a novel SSL\nfeature learning algorithm named the Pattern Integration and\nEnhancement Vision Transformer. PIEViT consists of a stu-\ndent network and a teacher network, simultaneously address-\ning image-level and patch-level tasks.",
+    "text_chars": 59632,
+    "training_days_median": null
+  },
+  "Panopticon_Advancing_Any-Sensor_Foundation_Models_for_Earth_Observation.pdf": {
+    "gpu_count_max": 16,
+    "gpu_count_median": 16,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 1500,
+    "limitations_text": "remain. We did not explore temporal invariance\nor equivariance\u2014a critical direction for future work\u2014nor\nfully investigate incorporating channel bandwidth informa-\ntion and using spectral convolution as augmentation strate-\ngies. Additionally, the absence of evaluation tasks utiliz-\ning diverse SAR channel combinations limited our ability\nto comprehensively test the model\u2019s SAR generalization ca-\npabilities.\nWhile Panopticon explicitly models channel-level sen-\nsor characteristics, it relies on view augmentations to learn\nother important EO invariances related to capture time, pro-\ncessing levels, and ground sampling distance. Though we\nspecifically tested and validated the latter, the other proper-\nties proved challenging to isolate and evaluate. Our results\nsuggest that combining explicit spectral modeling with di-\nverse augmentation strategies offers a promising path to-\nward truly sensor-agnostic Earth observation.\nThe development of robust any-sensor models is con-\nstrained by the scarcity of machine learning-ready data from\ndiverse satellite platforms, impeding equitable planetary\nmonitoring [54]. As remote sensing platforms proliferate,\nframeworks like Panopticon that generalize across sensor\nconfigurations will become increasingly valuable for maxi-\nmizing scientific and societal benefits. Future work should\nincorporate additional sensor-specific inductive biases, ex-\npand temporal modeling capabilities, and develop compre-\nhensive cross-sensor evaluation benchmarks.\nA",
+    "text_chars": 77413,
+    "training_days_median": null
+  },
+  "PhilEO_Bench_Evaluating_Geo-Spatial_Foundation_Models.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 22615,
+    "training_days_median": null
+  },
+  "Presto_Lightweight_Pre-trained_Transformers_for_Remote_Sensing_Timeseries.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "V100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 1500,
+    "limitations_text": "Presto is designed to ingest 10m/px resolution imagery and is pre-trained on products\nat this scale. This decision is motivated by the free, global availability over time of products at\nthis scale (such as Sentinel-1 and Sentinel-2). Presto does not natively process very-high resolution\nimagery such as <1m/px imagery from commercial satellites or drones, which can be costly and\noften lack complete coverage globally and temporally. In addition, Presto is a pixel-timeseries model.\nWhile we demonstrated Presto\u2019s flexibility on single-timestep image datasets, image-based models\nmay be preferred if a user\u2019s goal is to process entire images to make a prediction. We observed that\nPresto\u2019s performance on the EuroSAT dataset plateaued as the input resolution increased (Table 5),\ndue to images from classes where the relevant pixels for the class are a minority of the pixels in the\nimage (e.g., highways). In such scene classification challenges, image-based models which can learn\nthe shape of the relevant pixels may be better suited. We discuss this further in Section A.6.\nConclusion We present Presto: a lightweight, pre-trained timeseries transformer for remote sensing.\nBy leveraging structure unique to remote sensing data\u2014specifically, (i) an important temporal\ndimension, (ii) associated metadata and (iii) a diversity of sensors, we are able to train an extremely\nlightweight model which achieves state-of-the-art results in a wide variety of globally distributed\nevaluation tasks. Compu",
+    "text_chars": 66349,
+    "training_days_median": null
+  },
+  "Prithvi-EO-20_A_Versatile_Multi-Temporal_Foundation_Model_for_Earth_Observation_Applications.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 98764,
+    "training_days_median": null
+  },
+  "Prithvi_Foundation_Models_for_Generalist_Geospatial_Artificial_Intelligence.pdf": {
+    "gpu_count_max": 64,
+    "gpu_count_median": 64,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 79483,
+    "training_days_median": null
+  },
+  "Prithvi_WxC_Foundation_Model_for_Weather_and_Climate.pdf": {
+    "gpu_count_max": 64,
+    "gpu_count_median": 64,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 76636,
+    "training_days_median": null
+  },
+  "RS-BYOL_Self-Supervised_Learning_for_Invariant_Representations_From_Multi-Spectral_and_SAR_Images.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 1500,
+    "limitations_text": ".\nFurthermore, we analyse the impact of training with dif-\nferent dataset sizes on RS-BYOL-1. For this training, we\nincreased the size of the dataset by 30% using 150K pairs\nof Sen12MS.\nFinally, to better understand the usefulness of SAR data in\nlearning invariant representation, we also trained our model\nwith a single modality, that is, MS data only. This study\nexamines the bene\ufb01t of using multi-sensor data for remote\nsensing representation learning.\nEach of these variations was trained with the same archi-\n(a) MS\n(b) SAR\nFig. 4: Example: A batch of randomly augmented three channel MS and SAR images.\ntectural and parameter settings, that is, encoder, optimiser,\nscheduler, epochs, and batch size, except for the case of the\n64 batch size variation.\n2) Three Channel Models: For the three-channel remote\nsensing based feature learning model, we utilised two different\ninput techniques. The \ufb01rst technique, RS-BYOL-3, is similar\nto our single-channel model (RS-BYOL-1), which takes three\nrandom MS bands as one view ( V1) and SAR\u2019s VV & VH\nbands as another view ( V2); we randomly copied the third\nchannel for the third SAR view. Another input technique which\nwe applied is RGB-S1S2 , which keeps one view ( V1) as red,\ngreen, and blue bands (RGB), and another view ( V2) with one\nSAR and two random non-RGB MS bands such as red edge,\nnarrow infrared or shortwave infrared bands.\nWe utilised a single Nvidia RTX 2080Ti GPU for pre-\ntraining and evaluation of the models.\nV. E VALUATION\nFor the",
+    "text_chars": 65065,
+    "training_days_median": null
+  },
+  "RS-DFM.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 58432,
+    "training_days_median": null
+  },
+  "RS-vHeat.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 69081,
+    "training_days_median": null
+  },
+  "RS5M_and_GeoRSCLIP_A_Large_Scale_Vision-Language_Dataset_and_A_Large_Vision-Language_Model_for_Remote_Sensing.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "RTX4090"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 135454,
+    "training_days_median": null
+  },
+  "RSGPT_A_Remote_Sensing_Vision_Language_Model_and_Benchmark.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 81467,
+    "training_days_median": null
+  },
+  "RSP.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "V100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 121706,
+    "training_days_median": null
+  },
+  "RSVG_Exploring_Data_and_Models_for_Visual_Grounding_on_Remote_Sensing_Data.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 72003,
+    "training_days_median": null
+  },
+  "RVSA.pdf": {
+    "gpu_count_max": 8,
+    "gpu_count_median": 8,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 86600,
+    "training_days_median": null
+  },
+  "RemoteCLIP_A_Vision_Language_Foundation_Model_for_Remote_Sensing.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 108220,
+    "training_days_median": null
+  },
+  "Representation_Learning_for_Remote_Sensing_An_Unsupervised_Sensor_Fusion_Approach.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "TPUV2"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 42351,
+    "training_days_median": null
+  },
+  "RingMo-Aerial_An_Aerial_Remote_Sensing_Foundation_Model_With_Affine_Transformation_Contrastive_Learning.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 126519,
+    "training_days_median": null
+  },
+  "RingMo-Agent.pdf": {
+    "gpu_count_max": 8,
+    "gpu_count_median": 8,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 81814,
+    "training_days_median": null
+  },
+  "RingMo-Lite_A_Remote_Sensing_Lightweight_Network_With_CNN-Transformer_Hybrid_Framework.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 79260,
+    "training_days_median": null
+  },
+  "RingMoE.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 202559,
+    "training_days_median": null
+  },
+  "RoMA_Scaling_up_Mamba-based_Foundation_Models_for_Remote_Sensing.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 56869,
+    "training_days_median": null
+  },
+  "S2-CGAN_SSL_Adversarial_Repr_for_Binary_CD.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 19536,
+    "training_days_median": null
+  },
+  "S2MAE_A_Spatial-Spectral_Pretraining_Foundation_Model_for_Spectral_Remote_Sensing_Data.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 1500,
+    "limitations_text": ". S2MAE utilizes a 3D masking strategy\nto accentuate local spectral consistency. Nevertheless,\nthere exists a discernible gap in the examination of mask-ing strategies designed specifically for longer spectral se-\nquences. Focusing on the reconstruction target of informa-\ntion in the spectral sequence dimension, may yield richer\nrepresentations. Despite the computational advantages of a\n90% masking ratio during pretraining, the complexity per-\nsists at a high level for downstream tasks. Looking ahead,\nwe anticipate the exploration of more effective approaches,\nsuch as linearized self-attention, to augment the capabilities\nof S2MAE in subsequent research endeavors.\nAcknowledgement. This work was supported by\nthe National Key Research and Development Pro-\ngram of China under Grant 2022YFB3903401, the\nNational Natural Science Foundation of China un-\nder Grant 42241109 and Grant 42271350, and by\nthe MIAI@Grenoble Alpes (ANR-19-P3IA-0003).\nReferences\n[1] Kumar Ayush, Burak Uzkent, Chenlin Meng, Kumar Tan-\nmay, Marshall Burke, David Lobell, and Stefano Ermon.\nGeography-aware self-supervised learning. In Proceedings\nof the IEEE/CVF International Conference on Computer Vi-\nsion, pages 10181\u201310190, 2021. 1, 2\n[2] Roman Bachmann, David Mizrahi, Andrei Atanov, and Amir\nZamir. Multimae: Multi-modal multi-task masked autoen-\ncoders. In European Conference on Computer Vision , pages\n348\u2013367. Springer, 2022. 2\n[3] Gordon Christie, Neil Fendley, James Wilson, and Ryan\nMukherjee. Functional m",
+    "text_chars": 44045,
+    "training_days_median": null
+  },
+  "S4_Self-Supervised_Sensing_Across_the_Spectrum.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 57181,
+    "training_days_median": null
+  },
+  "SAMRS_Scaling-up_Remote_Sensing_Segmentation_Dataset_with_Segment_Anything_Model.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 55415,
+    "training_days_median": null
+  },
+  "SAR-JEPA.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 88832,
+    "training_days_median": null
+  },
+  "SARATR-X_Toward_Building_a_Foundation_Model_for_SAR_Target_Recognition.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 1500,
+    "limitations_text": "of the current ATR methods [18]\u2013[22] is that\none model is trained and evaluated on one specific task.\nThe detection and classification of a specific coarse category\n(e.g., vehicles, ships, airplanes, or buildings in Fig. 1.) all\nrequire their own deep models. As a result, the task-specific\nproperties of these deep models pose significant challenges\nfor training new tasks or developing a comprehensive SAR\nATR system since each task must be learned independently\nfrom the ground up, requiring vast amounts of labeled data.\nThis results in computational inefficiency, lower accuracy, and\ninconsistent results between the different models. Secondly,\nheavy reliance on supervised learning. Recent progress\nin SAR ATR [23]\u2013[25], while substantial, has been limited\nto supervised learning, which heavily depends on massive\namounts of accurately annotated target samples that are\nexpensively labeled by expert SAR analysts and have limited\ngeneralization capability and scalability. However, the scarcity\nof expert SAR analysts cannot meet such an exhaustive\nrequirement, leaving vast amounts of SAR images unlabelled\nand unexploited. Thirdly, the ignorance of SAR image\ncharacteristics in model designs. The imaging characteristics\nof SAR imagery differ significantly from those of optical\nimagery, leading to a significant domain gap between natural\nand SAR images. This raises significant challenges when one\nintends to transfer prior knowledge from the natural image\ndomain. Different strong prior kn",
+    "text_chars": 119088,
+    "training_days_median": null
+  },
+  "SARVLM_A_Vision_Language_Foundation_Model_for_Semantic_Understanding_and_Target_Recognition_in_SAR_Imagery.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 42983,
+    "training_days_median": null
+  },
+  "SMARTIES.pdf": {
+    "gpu_count_max": 8,
+    "gpu_count_median": 8,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 66679,
+    "training_days_median": null
+  },
+  "SS-MAE_Spatial-Spectral_Masked_Autoencoder_for_Multisource_Remote_Sensing_Image_Classification.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 68418,
+    "training_days_median": null
+  },
+  "SSL4EO-L_Datasets_and_Foundation_Models_for_Landsat_Imagery.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 1488,
+    "limitations_text": "There are a few limitations of the sampling method we chose to create our pre-training dataset. Due\nto low light levels near the poles, Landsat satellites do not capture images above 81.8\u00b0 latitudes [77],\nand do not produce SR products above 76\u00b0 latitudes.4The additional 23.5\u00b0 tilt of the Earth\u2019s axis\nduring the winter [78] means that it is not possible to collect imagery for all 4 seasons above 52.5\u00b0\nlatitude. It may be possible to relax this constraint and allow for sampling from locations where 3\nout of 4 seasons have imagery. Due to cloud cover and lower populations, there is very little imagery\nof tropical rainforests or polar regions, both of which are common applications of Landsat data.\nThe benchmark datasets we create are limited to the United States and may not adequately re-\nflect performance in other regions where agricultural practices and crops differ greatly. Ideally, we\nwould create additional global datasets. There exist large global Landsat-based datasets including\nthe Global Forest Cover Change dataset [40]. However, these datasets do not exist during all times\nwhen these satellites are active. We would also like to have classification datasets in addition to\nsemantic segmentation datasets. It may be possible to classify images by biome, although this task\nmay be too easy. In future work, we would like to add pre-trained models for MSS data, although\nthis will require a different sampling technique due to limited coverage over most of the world.",
+    "text_chars": 61232,
+    "training_days_median": 8.33
+  },
+  "SSL4EO-S12_A_Large-Scale_Multi-Modal_Multi-Temporal_Dataset_for_Self-Supervised_Learning_in_Earth_Observation.pdf": {
+    "gpu_count_max": 4,
+    "gpu_count_median": 4,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 71195,
+    "training_days_median": 58.33
+  },
+  "SSL_CD_in_Multiview_RS_Images.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 1500,
+    "limitations_text": ". This is achieved by the use of a multi-view contrastive\nloss and an implicit contrastive strategy in the feature alignment\nbetween multi-view images. In this approach, a pseudo-Siamese\nnetwork is trained to regress the output between its two branches\npre-trained in a contrastive way on a large dataset of multi-\ntemporal homogeneous or heterogeneous image patches. Finally,\nthe feature distance between the outputs of the two branches\nis used to de\ufb01ne a change measure, which can be analyzed by\nthresholding to get the \ufb01nal binary change map. Experiments\nare carried out on \ufb01ve homogeneous and heterogeneous remote\nsensing image datasets. The proposed SSL approach is compared\nwith other supervised and unsupervised state-of-the-art change\ndetection methods. Results demonstrate both improvements over\nstate-of-the-art unsupervised methods and that the proposed SSL\napproach narrows the gap between unsupervised and supervised\nchange detection.\nIndex Terms \u2014Change Detection, Self-supervised Learning,\nMulti-view, Sentinel-1/-2, Remote Sensing.\nI. I NTRODUCTION\nCHANGE maps are one of the most important products of\nremote sensing and are widely used in many applications\nincluding damage assessment and environmental monitoring.\nThe spatial and temporal resolutions play a crucial role in ob-\ntaining accurate and timely change detection maps from multi-\ntemporal images. In this context, irrelevant changes, such as\nradiometric and atmospheric variations, seasonal changes of\nvegetation, and cha",
+    "text_chars": 61864,
+    "training_days_median": null
+  },
+  "SSL_Multisensor_Change_Detection.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 51746,
+    "training_days_median": null
+  },
+  "SSL_RS_Images_CD_at_Pixel_level.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 45938,
+    "training_days_median": null
+  },
+  "SSL_for_Few_Shot_Hyperspectral_Classification.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 16472,
+    "training_days_median": null
+  },
+  "SSL_pretraining_enhances_CD_in_Sentinel2.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 30577,
+    "training_days_median": null
+  },
+  "Sat2Cap_Mapping_Fine-Grained_Textual_Descriptions_from_Satellite_Images.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 43334,
+    "training_days_median": null
+  },
+  "SatCLIP_Global_General-Purpose_Location_Embeddings_with_Satellite_Imagery.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 1500,
+    "limitations_text": "of the current implementation of SatCLIP is that it uses Sentinel-\n2 satellite imagery as the sole source of contextual grounding for our location\nencoder. In fact, the image encoder we utilize in SatCLIP can be seen as a special\ncase of a more general contextencoder that may integrate other location-specific\ndata modalities like audio from acoustic sensors or text from geolocated social\nmedia posts for multi-source geospatial learning. Second, the current SatCLIP\npre-trained weights have limited spatial scales, dictated by the Lparameter of\nthelocationencoder.Forextremelyhighresolutionorlocalphenomena,itwillbe\nimportant to further study the effect of different choices of the location encoder\nand its use for downstream learning. Third, there is the potential to expand the\nSatCLIP training framework to encode locations in both time and space. Here,\nwe effectively marginalized over all time points in the S2-100k dataset (which is\nsampled over two years and thus includes seasonal differences in images) but did\nnotdirectlyembedtimeinaspace-timeencoderofe.g.,theform f(lat, lon, time ).\nAddressing each of these three limitations would require separate innovations\n(on e.g.model architecture), and would need a new set pretraining data and/or\ndownstream tasks for evaluation. Thus, we see these extension as deserving of\ntheir own dedicated study in future work. Code for SatCLIP pretraining and\ndownstream experiments as well as the S2-100K dataset is available at github.\ncom/microsoft/s",
+    "text_chars": 78377,
+    "training_days_median": null
+  },
+  "SatDiFuser.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 64101,
+    "training_days_median": null
+  },
+  "SatMAE_Pre-training_Transformers_for_Temporal_and_Multi-Spectral_Satellite_Imagery.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 52258,
+    "training_days_median": null
+  },
+  "SatMAE_Rethinking_Transformers_Pre-training_for_Multi-Spectral_Satellite_Imagery.pdf": {
+    "gpu_count_max": 8,
+    "gpu_count_median": 8,
+    "gpus": [
+      "V100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 1500,
+    "limitations_text": ": Although the above baseline framework op-\nerates well on RGB and multi-spectral data, however it does\nnot exploit the multi-scale information present in the re-mote sensing data. In addition, the above baseline frame-\nwork strives to generalize across domains having images at\nmultiple scale levels. Furthermore, ScaleMAE [20] shows\nthat the scale information can be encoded through a GSD\nbased positional embeddings. However, the GSD based po-\nsitional embeddings introduced by ScaleMAE can only be\nused with the RGB data that has same GSD resolution for\neach channel [20]. Therefore, it is desired to rethink the\ndesign of the SatMAE framework to learn the multi-scale\ninformation that is not constrained to single data modality.\n4.2. Overall Architecture\nFig. 1 illustrates the overall framework of SatMAE++ that\novercomes the limitations of baseline framework SatMAE\n[5] and other recent approaches for multi-scale pre-training\non multi-spectral (fMoW-Sentinel) as well as RGB data\n(fMoW-RGB). We take input image at most of three scale\nlevels and feed the image at lowest scale level to the Sat-\nMAE framework. The base framework takes the input im-\nage, apply the patch embedding and masking operations,\nand feed the visible tokens to the transformer encoder. Sub-\nsequently, decoder takes the output of the encoder and re-\nconstructs the image having same spatial dimension as the\nlowest scale level input. The reconstructed output from the\nSatMAE model is utilized by the upsample blocks to",
+    "text_chars": 38965,
+    "training_days_median": null
+  },
+  "SatMamba_Development_of_Foundation_Models_for_Remote_Sensing_Imagery_Using_State_Space_Models.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 1500,
+    "limitations_text": "is expected to reduce the computational costs\nand memory requirements of the model. In experiments on two\nimage-to-image tasks, SatMamba delivered competitive results\nagainst strong benchmarks such as ResNet50, EfficientNet-\nB7, ViTMAE-B, ViTMAE-L. Several promising avenues for\nfuture development include scaling to stronger models by\nutilizing larger pretraining datasets, as well as experimenting\nwith SatMamba in other image domains. The scaling capa-\nbilities of Mamba-based architectures as model size grows,\ncompared to ViT-based architectures, is an active research area\nin both remote sensing and other domains. Additionally, since\nSatMamba can be adapted to other image domains, such as\nmedium-resolution, multispectral RS and natural imageries, it\nwould be worthwhile to test the architecture in these areas as\nwell.\nACKNOWLEDGMENTS\nThis work was supported by the International Digital Earth\nApplied Science Research Center, an International Joint Us-\nage/Research Center located at Chubu University, Japan.\nREFERENCES\n[1] Y . Cong, S. Khanna, C. Meng, P. Liu, E. Rozi, Y . He, M. Burke,\nD. B. Lobell, and S. Ermon, \u201cSatMAE: Pre-training Transformers for\nTemporal and Multi-Spectral Satellite Imagery,\u201d Advances in Neural\nInformation Processing Systems , vol. 35, no. NeurIPS, pp. 1\u201324, 2022.[2] J. Jakubik, S. Roy, C. E. Phillips, P. Fraccaro, D. Godwin, B. Zadrozny,\nD. Szwarcman, C. Gomes, G. Nyirjesy, B. Edwards, D. Kimura, N. Si-\nmumba, L. Chu, S. K. Mukkavilli, D. Lambhate, K. Das,",
+    "text_chars": 31464,
+    "training_days_median": null
+  },
+  "SatSwinMAE_Efficient_Autoencoding_for_Multiscale_Time-series_Satellite_Imagery.pdf": {
+    "gpu_count_max": 64,
+    "gpu_count_median": 64,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 30472,
+    "training_days_median": null
+  },
+  "SatVision-TOA_A_Geospatial_Foundation_Model_for_Coarse-Resolution_All-Sky_Remote_Sensing_Imagery.pdf": {
+    "gpu_count_max": 4,
+    "gpu_count_median": 4,
+    "gpus": [
+      "A100",
+      "MI250"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 1500,
+    "limitations_text": "in downstream tasks that involve diurnal variations (e.g., cloud life cycle). Nevertheless, the downstream\ntask example given in this paper demonstrates that sampling a fixed local time does not introduce significant caveats.\nA sampling strategy that provides thorough characterization across the diverse set of land- and cloud-cover types is\nkey to the development of a robust ViT. As such, even a robust sample of chips based on a purely geographic random\nsample will be insufficient due to variations in cover type probabilities [ 23,24,25]. This approach would under-sample\nrare cover types and over-sample those that are common. To avoid these biases in cover type sampling, we implemented\na clustering method to sample based on land- and cloud-cover structure represented in the image chips. This method\nensures a sampling of diverse image chips for pre-training.\n3.2 Configuring a model architecture and pre-training\nWe utilized the Masked-Image-Modeling (MIM) framework [ 26] for pre-training SatVision-TOA. MIM, inspired by\nMasked Language Modeling [ 27] from Natural Language Processing, involves randomly masking patches of the input\nsatellite imagery chip and training the model to predict missing regions. This approach allows the model to learn\ndetailed contextual representations through self-supervision, which is particularly beneficial when labeled data is scarce.\nThe MIM framework was chosen for its ability to capture both local and global context [ 28] of the imagery and its\nfe",
+    "text_chars": 57735,
+    "training_days_median": 13.71
+  },
+  "SatlasPretrain.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 54612,
+    "training_days_median": null
+  },
+  "Scale-MAE_A_Scale-Aware_Masked_Autoencoder_for_Multiscale_Geospatial_Representation_Learning.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 55702,
+    "training_days_median": null
+  },
+  "SeaMo_A_Multi-Seasonal_and_Multimodal_Remote_Sensing_Foundation_Model.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "RTX4090"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 89384,
+    "training_days_median": null
+  },
+  "Seasonal_Contrast_Unsupervised_Pre-Training_From_Uncurated_Remote_Sensing_Data.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 47855,
+    "training_days_median": null
+  },
+  "SelectiveMAE.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 100351,
+    "training_days_median": null
+  },
+  "Self-Supervised_Learning_of_Remote_Sensing_Scene_Representations_Using_Contrastive_Multiview_Coding.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 44743,
+    "training_days_median": null
+  },
+  "Self-Supervised_Material_and_Texture_Representation_Learning_for_Remote_Sensing_Tasks.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 65512,
+    "training_days_median": null
+  },
+  "Self-Supervised_Vision_Transformers_for_Joint_SAR-Optical_Representation_Learning.pdf": {
+    "gpu_count_max": 4,
+    "gpu_count_median": 4,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 20372,
+    "training_days_median": null
+  },
+  "Self-supervised_Audiovisual_Representation_Learning_for_Remote_Sensing_Data.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 54804,
+    "training_days_median": null
+  },
+  "SemanticAware.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 97333,
+    "training_days_median": null
+  },
+  "Semantic_Segmentation_of_Remote_Sensing_Images_With_Self-Supervised_Multitask_Representation_Learning.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 62665,
+    "training_days_median": null
+  },
+  "SenPa-MAE.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 45153,
+    "training_days_median": null
+  },
+  "SkyEyeGPT_Unifying_Remote_Sensing_Vision-Language_Tasks_via_Instruction_Tuning_with_Large_Language_Model.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 87047,
+    "training_days_median": null
+  },
+  "SkyScript_A_Large_and_Semantically_Diverse_Vision-Language_Dataset_for_Remote_Sensing.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 67351,
+    "training_days_median": null
+  },
+  "SkySense-V2.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 95904,
+    "training_days_median": 0.83
+  },
+  "SkySense.pdf": {
+    "gpu_count_max": 4600,
+    "gpu_count_median": 4600,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 115616,
+    "training_days_median": 4.17
+  },
+  "SkySenseGPT.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 89963,
+    "training_days_median": null
+  },
+  "SoftCon_Multi-Label_Guided_Soft_Contrastive_Learning_for_Efficient_Earth_Observation_Pretraining.pdf": {
+    "gpu_count_max": 8,
+    "gpu_count_median": 4,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 85394,
+    "training_days_median": null
+  },
+  "SpectralEarth_Training_Hyperspectral_Foundation_Models_at_Scale.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 1500,
+    "limitations_text": "is primarily rooted in the expenses associated with\nairborne hyperspectral sensor surveys on the one hand and\nthe collection of ground truth annotations and in-situ mea-\nsurements on the other hand. While collecting quality labels\nremains a challenge today, the increased accessibility to more\ncost-effective sensors and the launch of hyperspectral satellite\nmissions enabled coverage of larger regions with HSI. Devel-\nopments in SSL and foundation models have also driven inter-\nest in creating large-scale unlabeled HSI datasets. For instance,\nthe HySpecNet-11k [14] collected about 11,500 unlabeled hy-\nperspectral patches from the EnMAP satellite. HySpecNet-11k\nis designed to benchmark (unsupervised) image compression\ntechniques. Similarly, MSST [15] compiled a dataset of 19,792\nEnMAP patches for SSL pre-training. While HySpecNet-\n11k and MSST have contributed to increasing the scale of\nJOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2021 3\nDataset # Img. Size Sensor Bands GSD Multi-temporal\nIndian Pines [23] 1 145 \u00d7145 A VIRIS 224 20m \u00d7\nKSC [24] 1 512 \u00d7614 A VIRIS 224 18m \u00d7\nSalinas [24] 1 512 \u00d7217 A VIRIS 224 3.7m \u00d7\nPavia University [24] 1 610 \u00d7340 ROSIS 103 1.3m \u00d7\nPavia Center [24] 1 1096 \u00d71096 ROSIS 102 1.3m \u00d7\nBotswana [24] 1 1476 \u00d7256 EO-1 242 30m \u00d7\nHouston University [25] 1 349 \u00d71905 ITRES-CASI 144 2.5m \u00d7\nSDFC [26] 1 1201 \u00d7201 HAHS 63 0.5m \u00d7\nChikusei [27] 1 2517 \u00d72335 Hyperspec-VNIR-C 128 2.5m \u00d7\nWHU-Hi [28] 3 1217 \u00d7303, 940 \u00d7475, 550 \u00d7400 Nano-Hyperspec 270-274 0.043-",
+    "text_chars": 105031,
+    "training_days_median": null
+  },
+  "SpectralGPT_Spectral_Remote_Sensing_Foundation_Model.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 75181,
+    "training_days_median": null
+  },
+  "SwiMDiff.pdf": {
+    "gpu_count_max": 4,
+    "gpu_count_median": 4,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 57987,
+    "training_days_median": null
+  },
+  "TEOChat.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 101600,
+    "training_days_median": null
+  },
+  "TESSERA.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "A100",
+      "MI300"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 127070,
+    "training_days_median": 258.33
+  },
+  "TOV_The_Original_Vision_Model_for_Optical_Remote_Sensing_Image_Understanding_via_Self-supervised_Learning.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 64194,
+    "training_days_median": null
+  },
+  "TaskRelated_SSL_for_RS_Image_CD.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 23318,
+    "training_days_median": null
+  },
+  "TerraFM.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 56634,
+    "training_days_median": 0.12
+  },
+  "TerraMind_Large-Scale_Generative_Multimodality_for_Earth_Observation.pdf": {
+    "gpu_count_max": 32,
+    "gpu_count_median": 32,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 86053,
+    "training_days_median": 9.0
+  },
+  "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observation_imagery.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 42563,
+    "training_days_median": null
+  },
+  "TiMo.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "RTX4090"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 70014,
+    "training_days_median": null
+  },
+  "Tile2Vec_Unsupervised_Representation_Learning_for_Spatially_Distributed_Data.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 52325,
+    "training_days_median": null
+  },
+  "Towards_Scalable_Foundation_Model_for_Multi-modal_and_Hyperspectral_Geospatial_Data.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 74929,
+    "training_days_median": null
+  },
+  "Towards_a_Unified_Copernicus_Foundation_Model_for_Earth_Vision.pdf": {
+    "gpu_count_max": 4,
+    "gpu_count_median": 4,
+    "gpus": [
+      "A100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 88954,
+    "training_days_median": 21.33
+  },
+  "U-BARN.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [
+      "A100",
+      "V100"
+    ],
+    "has_compute_info": true,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 91045,
+    "training_days_median": null
+  },
+  "USat_A_Unified_Self-Supervised_Encoder_for_Multi-Sensor_Satellite_Imagery.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 58359,
+    "training_days_median": null
+  },
+  "UrbanCLIP_Learning_Text-Enhanced_Urban_Region_Profiling_with_Contrastive_Language-Image_Pretraining_from_the_Web.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 1500,
+    "limitations_text": "in balancing high spatial resolution and real-time up-\ndates due to their prohibitive costs [ 62,83,95]. In contrast, data\noriginating from web platforms boasts consistent updates and easy\naccessibility, especially high-resolution urban surfaces extracted\nfrom Baidu Map or Google Map [ 52,57,90], serving as the founda-\ntion for machine learning models to achieve a cost-friendly, high-\nquality, and timely understanding of urban indicators [ 9,52,86].\nUpon revisiting the existing literature, we classify web-based urban\nregion profiling into two categories, as shown in Figure 1:\na)Task-specific supervised learning acquires urban region\nrepresentations through supervised training using data sources (e.g.,\nsatellite imagery) specific to particular tasks, including poverty lev-\nels [4,5,25,34,68,95], crop yields [ 58,61,71,85,94,96], population,\nland cover [ 29,84] and commercial activeness [ 28,57]. However,\nthe task-specific nature of supervised learning, which requires con-\nsiderable labeled data, may impede the model\u2019s generalizability ,\npotentially compromising its overall robustness and efficacy.\nb)Self-supervised learning , extending beyond satellite im-\nagery, integrates diverse auxiliary spatial modalities to generate\ncomprehensive feature representations. These representations boast\nwide applicability, readily generalizing across numerous urban in-\ndicator tasks, as delineated in Figure 1(c). Typically, [ 6,36,57,90]\nintegrate the information of Point-of-Interests (POIs) ",
+    "text_chars": 97929,
+    "training_days_median": null
+  },
+  "WV-Net_A_foundation_model_for_SAR_WV-mode_satellite_imagery_trained_using_contrastive_self-supervised_learning_on_10_mil.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 1500,
+    "limitations_text": "One major limitation of this work is computational constraints. Model performance could likely\nbe improved with more larger models, longer training, and more extensive hyperparameter sweeps.\nCarefully tuning the temperature parameter during pretraining can impact task performance, especially\nfor relatively small batch sizes such as those employed here [6]. Contrastive SSL models have been\nshown to scale effectively with model capacity [ 10,11], thus we expect that training a larger model\nsuch as ResNet152(x2, x4) with our setup would result in even better performance on downstream\ntasks.\nSimilarly, masked-image-modeling and variational inference with adversarial learning (ViTs) have\nbeen shown to outperform convolutional architectures given enough training time and data [ 26,54].\nWhile ViTs were included in the initial model analysis (Appendix A), the models were relatively\nsmall. It is possible that given a larger ViT model and enough training time this could be a competitive\napproach to the one presented here.\nThe downstream tasks presented are only a small subset of potential applications. For example,\nmodels could be trained to detect the organized large-scale eddies or lack of them (NV , WS, and MC)\nwhich are present in nearly 85% of all images. Supplementing the results with a dense prediction\ntask like detecting organized large-scale eddies could provide further insights into the behavior of\nWV-Net. Previous works such as Sikora et al. [49], Young et al. [68,69]have ba",
+    "text_chars": 65227,
+    "training_days_median": null
+  },
+  "WildSAT_Learning_Satellite_Image_Representations_from_Wildlife_Observations.pdf": {
+    "gpu_count_max": null,
+    "gpu_count_median": null,
+    "gpus": [],
+    "has_compute_info": false,
+    "limitations_chars": 0,
+    "limitations_text": null,
+    "text_chars": 90568,
+    "training_days_median": null
+  }
+}
