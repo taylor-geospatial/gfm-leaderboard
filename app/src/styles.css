@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design tokens — Taylor Geospatial brand palette */
+@layer base {
+  :root {
+    /* TG Ivory bg, TG Brown text */
+    --background: 60 11% 94%; /* #f4f4eb ivory */
+    --foreground: 2 33% 17%; /* #3b1e1c brown */
+    --card: 60 11% 97%;
+    --card-foreground: 2 33% 17%;
+    --popover: 60 11% 97%;
+    --popover-foreground: 2 33% 17%;
+    --primary: 2 33% 17%; /* brown */
+    --primary-foreground: 60 11% 94%; /* ivory */
+    --secondary: 60 11% 90%;
+    --secondary-foreground: 2 33% 17%;
+    --muted: 60 11% 89%;
+    --muted-foreground: 2 20% 42%;
+    --accent: 12 100% 58%; /* #FF4F2C TG red */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 60 8% 84%;
+    --input: 60 8% 84%;
+    --ring: 218 47% 67%; /* #80A0D8 periwinkle */
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 2 33% 10%; /* deep brown */
+    --foreground: 60 11% 94%; /* ivory */
+    --card: 2 33% 13%;
+    --card-foreground: 60 11% 94%;
+    --popover: 2 33% 13%;
+    --popover-foreground: 60 11% 94%;
+    --primary: 60 11% 94%;
+    --primary-foreground: 2 33% 17%;
+    --secondary: 2 33% 17%;
+    --secondary-foreground: 60 11% 94%;
+    --muted: 2 25% 18%;
+    --muted-foreground: 60 8% 58%;
+    --accent: 12 100% 60%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 60 11% 94%;
+    --border: 2 25% 22%;
+    --input: 2 25% 22%;
+    --ring: 218 47% 67%;
+  }
+  * {
+    @apply border-border;
+  }
+  html {
+    font-feature-settings: "cv11", "ss01", "ss03", "cv02";
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  ::selection {
+    background: hsl(218 47% 67% / 0.25);
+  }
+}
+
+.num,
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle grid backdrop for hero */
+.hero-grid {
+  background-image: linear-gradient(to right, hsl(var(--border)) 1px, transparent 1px),
+    linear-gradient(to bottom, hsl(var(--border)) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 30%, #000 30%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 30%, #000 30%, transparent 75%);
+}
+
+/* MapLibre overrides */
+.maplibregl-ctrl-attrib {
+  font-size: 10px;
+  opacity: 0.7;
+}
+.maplibregl-popup-content {
+  background: hsl(var(--popover));
+  color: hsl(var(--popover-foreground));
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  font-family: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  font-size: 12px;
+  padding: 8px 10px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 16px -4px rgba(0, 0, 0, 0.1);
+}
+.maplibregl-popup-tip {
+  display: none;
+}
+
+@keyframes shimmer {
+  0% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 0.95;
+  }
+  100% {
+    opacity: 0.55;
+  }
+}
+.skel {
+  animation: shimmer 1.4s ease-in-out infinite;
+}
