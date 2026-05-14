@@ -31,8 +31,12 @@ install-uv:
 	fi
 
 install-python:
-	@echo "creating uv-managed Python env in .venv and installing requirements.txt…"
-	uv venv
+	@if [ -d .venv ]; then \
+		echo "✓ .venv already exists, reusing"; \
+	else \
+		echo "creating uv-managed Python env in .venv…"; \
+		uv venv; \
+	fi
 	uv pip install -r requirements.txt
 
 install-js:
