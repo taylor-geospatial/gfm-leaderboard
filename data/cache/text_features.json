@@ -301,16 +301,6 @@
     "text_chars": 84220,
     "training_days_median": null
   },
-  "Depth_Any_Canopy.pdf": {
-    "gpu_count_max": null,
-    "gpu_count_median": null,
-    "gpus": [],
-    "has_compute_info": false,
-    "limitations_chars": 0,
-    "limitations_text": null,
-    "text_chars": 36988,
-    "training_days_median": null
-  },
   "DiffusionSat_A_Generative_Foundation_Model_for_Satellite_Imagery.pdf": {
     "gpu_count_max": 8,
     "gpu_count_median": 4,
@@ -481,16 +471,6 @@
     "text_chars": 47794,
     "training_days_median": null
   },
-  "GEO-Bench_Toward_Foundation_Models_for_Earth_Monitoring.pdf": {
-    "gpu_count_max": null,
-    "gpu_count_median": null,
-    "gpus": [],
-    "has_compute_info": false,
-    "limitations_chars": 890,
-    "limitations_text": "Our benchmark does not extensively evaluate all desired features of a pre-trained model\nfor earth monitoring. For example, it does not evaluate its ability to fine-tune temporal data nor perform\nfusion with other types of data such as text or weather. The spatial coverage of the benchmark covers\nmost continents and improves coverage over individual datasets. However, the spatial coverage could\nstill be largely improved to include a much wider range of countries and biomes. Finally, as pre-trained\nmodels become stronger, they will get closer to the theoretical limit of generalization performance, i.e.\napproaching the aleatoric uncertainty of the dataset. Under such a regime, we expect a bigger overlap\nbetween error bars when comparing 2 different models.\nReferences\nDiab Abuaiadah and Alexander Switzer. Remote sensing dataset for detecting cows from high resolution aerial images.",
-    "text_chars": 75197,
-    "training_days_median": null
-  },
   "GFM.pdf": {
     "gpu_count_max": 768,
     "gpu_count_median": 768,
@@ -533,16 +513,6 @@
     "limitations_chars": 0,
     "limitations_text": null,
     "text_chars": 77447,
-    "training_days_median": null
-  },
-  "GeoCLIP_Clip-Inspired_Alignment_between_Locations_and_Images_for_Effective_Worldwide_Geo-localization.pdf": {
-    "gpu_count_max": null,
-    "gpu_count_median": null,
-    "gpus": [],
-    "has_compute_info": false,
-    "limitations_chars": 1059,
-    "limitations_text": ": As we use a CLIP-based backbone in our image encoder, precomputing the image\nfeatures on the large training dataset (each image of dimension 224\u00d7224\u00d73) is time-consuming.\nBut once the features are precomputed, the training of our GeoCLIP model is relatively fast. We also\nobserved that a single \u03c3value used in RFF is insufficient to perform well on both small and large\nareas. However, our hierarchical learning is a promising direction to overcome this issue.\nBroader Impacts : Our image-based geo-localization can act as a substitute for GPS-based localiza-\ntion in scenarios where GPS signals are unreliable, blocked, or inaccurate. Combining image-based\ngeo-tagging with GPS-based positioning systems can help to improve stability and safety in applica-\ntions like autonomous driving and navigation. Also, it can benefit digital forensics, but avoiding its\nunethical use that could mislead location detection systems or violate privacy is important. More\ndiscussion on ethical issues and possible mitigation approaches are provided in the supplementary.",
-    "text_chars": 77132,
     "training_days_median": null
   },
   "GeoChat_Grounded_Large_Vision-Language_Model_for_Remote_Sensing.pdf": {
@@ -765,16 +735,6 @@
     "text_chars": 117177,
     "training_days_median": null
   },
-  "Major_TOM_Expandable_Datasets_for_Earth_Observation.pdf": {
-    "gpu_count_max": null,
-    "gpu_count_median": null,
-    "gpus": [],
-    "has_compute_info": false,
-    "limitations_chars": 0,
-    "limitations_text": null,
-    "text_chars": 24777,
-    "training_days_median": null
-  },
   "MetaEarth_A_Generative_Foundation_Model_for_Global-Scale_Remote_Sensing_Image_Generation.pdf": {
     "gpu_count_max": null,
     "gpu_count_median": null,
@@ -833,16 +793,6 @@
     "text_chars": 72511,
     "training_days_median": null
   },
-  "PANGAEA_A_Global_and_Inclusive_Benchmark_for_Geospatial_Foundation_Models.pdf": {
-    "gpu_count_max": null,
-    "gpu_count_median": null,
-    "gpus": [],
-    "has_compute_info": false,
-    "limitations_chars": 1500,
-    "limitations_text": ". A key issue is that many of these benchmarks focus on highly specific domains , making them valuable for\ntargeting specific performance metrics but limiting their applicability from a more generalist perspective.\nFor example, PhilEO Bench [ 9] proposed a benchmark dataset comprising Sentinel-2 images, annotated for three\ndownstream semantic segmentation tasks: building density estimation, road segmentation, and land cover classification.\nFoMo-Bench [ 145] targets forest monitoring with datasets covering classification, segmentation, and detection tasks,\nwhereas [13] focuses on agriculture, selecting six crop classification datasets sourced from five continents.\nOther benchmarks, however, overlook certain critical tasks (e.g. change detection) and fail to account for a pivotal\ncharacteristic of EO data: multi-temporality . For instance, EarthNets [ 19] provides a benchmark after analyzing\npublished datasets, including fMoW [ 32] and BigEarthNet [ 27] for classification; DIOR [ 33] and fMoW [ 32] for object\ndetection; and GeoNRW [ 146] and SEASONET [ 147] for semantic segmentation. While these datasets contribute\nvaluable benchmarks for various tasks, they overlook the temporal aspect that is crucial for many geospatial models.\nAlso, GEO-Bench [ 10] adapts and curates six classification and six segmentation datasets with diverse modalities and\nspatial resolutions, yet still does not fully incorporate the temporal dimension of EO data. Finally, SustainBench [ 11],\nthough one o",
-    "text_chars": 189625,
-    "training_days_median": null
-  },
   "PIEViT.pdf": {
     "gpu_count_max": null,
     "gpu_count_median": null,
@@ -863,16 +813,6 @@
     "limitations_chars": 1500,
     "limitations_text": "remain. We did not explore temporal invariance\nor equivariance\u2014a critical direction for future work\u2014nor\nfully investigate incorporating channel bandwidth informa-\ntion and using spectral convolution as augmentation strate-\ngies. Additionally, the absence of evaluation tasks utiliz-\ning diverse SAR channel combinations limited our ability\nto comprehensively test the model\u2019s SAR generalization ca-\npabilities.\nWhile Panopticon explicitly models channel-level sen-\nsor characteristics, it relies on view augmentations to learn\nother important EO invariances related to capture time, pro-\ncessing levels, and ground sampling distance. Though we\nspecifically tested and validated the latter, the other proper-\nties proved challenging to isolate and evaluate. Our results\nsuggest that combining explicit spectral modeling with di-\nverse augmentation strategies offers a promising path to-\nward truly sensor-agnostic Earth observation.\nThe development of robust any-sensor models is con-\nstrained by the scarcity of machine learning-ready data from\ndiverse satellite platforms, impeding equitable planetary\nmonitoring [54]. As remote sensing platforms proliferate,\nframeworks like Panopticon that generalize across sensor\nconfigurations will become increasingly valuable for maxi-\nmizing scientific and societal benefits. Future work should\nincorporate additional sensor-specific inductive biases, ex-\npand temporal modeling capabilities, and develop compre-\nhensive cross-sensor evaluation benchmarks.\nA",
     "text_chars": 77413,
-    "training_days_median": null
-  },
-  "PhilEO_Bench_Evaluating_Geo-Spatial_Foundation_Models.pdf": {
-    "gpu_count_max": null,
-    "gpu_count_median": null,
-    "gpus": [],
-    "has_compute_info": false,
-    "limitations_chars": 0,
-    "limitations_text": null,
-    "text_chars": 22615,
     "training_days_median": null
   },
   "Presto_Lightweight_Pre-trained_Transformers_for_Remote_Sensing_Timeseries.pdf": {
@@ -989,16 +929,6 @@
     "text_chars": 121706,
     "training_days_median": null
   },
-  "RSVG_Exploring_Data_and_Models_for_Visual_Grounding_on_Remote_Sensing_Data.pdf": {
-    "gpu_count_max": null,
-    "gpu_count_median": null,
-    "gpus": [],
-    "has_compute_info": false,
-    "limitations_chars": 0,
-    "limitations_text": null,
-    "text_chars": 72003,
-    "training_days_median": null
-  },
   "RVSA.pdf": {
     "gpu_count_max": 8,
     "gpu_count_median": 8,
@@ -1113,16 +1043,6 @@
     "limitations_chars": 0,
     "limitations_text": null,
     "text_chars": 57181,
-    "training_days_median": null
-  },
-  "SAMRS_Scaling-up_Remote_Sensing_Segmentation_Dataset_with_Segment_Anything_Model.pdf": {
-    "gpu_count_max": null,
-    "gpu_count_median": null,
-    "gpus": [],
-    "has_compute_info": false,
-    "limitations_chars": 0,
-    "limitations_text": null,
-    "text_chars": 55415,
     "training_days_median": null
   },
   "SAR-JEPA.pdf": {
@@ -1249,28 +1169,6 @@
     "limitations_chars": 0,
     "limitations_text": null,
     "text_chars": 30577,
-    "training_days_median": null
-  },
-  "Sat2Cap_Mapping_Fine-Grained_Textual_Descriptions_from_Satellite_Images.pdf": {
-    "gpu_count_max": null,
-    "gpu_count_median": null,
-    "gpus": [],
-    "has_compute_info": false,
-    "limitations_chars": 0,
-    "limitations_text": null,
-    "text_chars": 43334,
-    "training_days_median": null
-  },
-  "SatCLIP_Global_General-Purpose_Location_Embeddings_with_Satellite_Imagery.pdf": {
-    "gpu_count_max": null,
-    "gpu_count_median": null,
-    "gpus": [
-      "A100"
-    ],
-    "has_compute_info": true,
-    "limitations_chars": 1500,
-    "limitations_text": "of the current implementation of SatCLIP is that it uses Sentinel-\n2 satellite imagery as the sole source of contextual grounding for our location\nencoder. In fact, the image encoder we utilize in SatCLIP can be seen as a special\ncase of a more general contextencoder that may integrate other location-specific\ndata modalities like audio from acoustic sensors or text from geolocated social\nmedia posts for multi-source geospatial learning. Second, the current SatCLIP\npre-trained weights have limited spatial scales, dictated by the Lparameter of\nthelocationencoder.Forextremelyhighresolutionorlocalphenomena,itwillbe\nimportant to further study the effect of different choices of the location encoder\nand its use for downstream learning. Third, there is the potential to expand the\nSatCLIP training framework to encode locations in both time and space. Here,\nwe effectively marginalized over all time points in the S2-100k dataset (which is\nsampled over two years and thus includes seasonal differences in images) but did\nnotdirectlyembedtimeinaspace-timeencoderofe.g.,theform f(lat, lon, time ).\nAddressing each of these three limitations would require separate innovations\n(on e.g.model architecture), and would need a new set pretraining data and/or\ndownstream tasks for evaluation. Thus, we see these extension as deserving of\ntheir own dedicated study in future work. Code for SatCLIP pretraining and\ndownstream experiments as well as the S2-100K dataset is available at github.\ncom/microsoft/s",
-    "text_chars": 78377,
     "training_days_median": null
   },
   "SatDiFuser.pdf": {

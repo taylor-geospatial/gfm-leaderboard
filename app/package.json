@@ -4,8 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build:data": "node scripts/build-data.mjs",
+    "dev": "npm run build:data && vite",
+    "build": "npm run build:data && tsc -b && vite build",
     "preview": "vite preview --port 4173",
     "lint": "biome check src",
     "lint:fix": "biome check --write src",

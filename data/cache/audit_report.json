@@ -1,0 +1,1024 @@
+{
+  "code_avail_but_no_url": [
+    [
+      "A2-MAE_A_spatial-temporal-spectral_unified_remote_sensing_pre-training_method_based_on_anchor-aware_masked_autoencoder.pdf",
+      ""
+    ],
+    [
+      "Fus-MAE_A_cross-attention-based_data_fusion_approach_for_Masked_Autoencoders_in_remote_sensing.pdf",
+      ""
+    ],
+    [
+      "GeoLangBind_Unifying_Earth_Observation_with_Agglomerative_Vision-Language_Foundation_Models.pdf",
+      ""
+    ],
+    [
+      "MM-VSF_Towards_Knowledge_Guided_Pretraining_Approaches_for_Multimodal_Foundation_Models_in_Remote_Sensing.pdf",
+      ""
+    ],
+    [
+      "SARVLM_A_Vision_Language_Foundation_Model_for_Semantic_Understanding_and_Target_Recognition_in_SAR_Imagery.pdf",
+      ""
+    ],
+    [
+      "SkyEyeGPT_Unifying_Remote_Sensing_Vision-Language_Tasks_via_Instruction_Tuning_with_Large_Language_Model.pdf",
+      ""
+    ],
+    [
+      "RS-vHeat.pdf",
+      ""
+    ]
+  ],
+  "weights_avail_no_url": [
+    [
+      "A2-MAE_A_spatial-temporal-spectral_unified_remote_sensing_pre-training_method_based_on_anchor-aware_masked_autoencoder.pdf",
+      ""
+    ],
+    [
+      "A_Sentinel-3_foundation_model_for_ocean_colour.pdf",
+      ""
+    ],
+    [
+      "Fus-MAE_A_cross-attention-based_data_fusion_approach_for_Masked_Autoencoders_in_remote_sensing.pdf",
+      ""
+    ],
+    [
+      "In-domain_representation_learning_for_remote_sensing.pdf",
+      ""
+    ],
+    [
+      "MM-VSF_Towards_Knowledge_Guided_Pretraining_Approaches_for_Multimodal_Foundation_Models_in_Remote_Sensing.pdf",
+      ""
+    ],
+    [
+      "SkyEyeGPT_Unifying_Remote_Sensing_Vision-Language_Tasks_via_Instruction_Tuning_with_Large_Language_Model.pdf",
+      ""
+    ],
+    [
+      "SkySense.pdf",
+      ""
+    ],
+    [
+      "GRAFT.pdf",
+      ""
+    ]
+  ],
+  "pretrain_no_sensors": [
+    [
+      "Cross-Scale_MAE_A_Tale_of_Multiscale_Exploitation_in_Remote_Sensing.pdf",
+      ""
+    ],
+    [
+      "FlexiMo_A_Flexible_Remote_Sensing_Foundation_Model.pdf",
+      ""
+    ],
+    [
+      "MTP_Advancing_Remote_Sensing_Foundation_Model_via_Multi-Task_Pretraining.pdf",
+      ""
+    ]
+  ],
+  "pretrain_no_dataset": [
+    [
+      "FlexiMo_A_Flexible_Remote_Sensing_Foundation_Model.pdf",
+      ""
+    ]
+  ],
+  "year_mismatch_vs_openalex": [
+    [
+      "SkySense.pdf",
+      "extracted=2024 oa=2020"
+    ]
+  ],
+  "model_name_missing": [
+    [
+      "SSL_pretraining_enhances_CD_in_Sentinel2.pdf",
+      ""
+    ],
+    [
+      "SSL_Multisensor_Change_Detection.pdf",
+      ""
+    ],
+    [
+      "SSL_CD_in_Multiview_RS_Images.pdf",
+      ""
+    ],
+    [
+      "CMC_with_EO_for_SAR_Semantic_Segmentation.pdf",
+      ""
+    ],
+    [
+      "SSL_for_Few_Shot_Hyperspectral_Classification.pdf",
+      ""
+    ]
+  ],
+  "metric_likely_fractional": [
+    [
+      "CGEarthEye.pdf",
+      "map=0.8262 (looks 0-1 not 0-100)"
+    ],
+    [
+      "CGEarthEye.pdf",
+      "map=0.752 (looks 0-1 not 0-100)"
+    ],
+    [
+      "CMC_with_EO_for_SAR_Semantic_Segmentation.pdf",
+      "miou=0.0 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.444 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.391 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.33 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.296 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.498 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.435 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.384 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.35 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.757 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.677 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.597 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.532 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.869 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.804 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.744 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.69 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.511 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.343 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.709 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.473 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.578 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.371 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.869 (looks 0-1 not 0-100)"
+    ],
+    [
+      "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sen.pdf",
+      "map=0.69 (looks 0-1 not 0-100)"
+    ],
+    [
+      "GAIR_Improving_Multimodal_Geo-Foundation_Model_with_Geo-Aligned_Implicit_Represe.pdf",
+      "f1=0.0 (looks 0-1 not 0-100)"
+    ],
+    [
+      "GAIR_Improving_Multimodal_Geo-Foundation_Model_with_Geo-Aligned_Implicit_Represe.pdf",
+      "f1=0.64 (looks 0-1 not 0-100)"
+    ],
+    [
+      "GAIR_Improving_Multimodal_Geo-Foundation_Model_with_Geo-Aligned_Implicit_Represe.pdf",
+      "f1=0.0 (looks 0-1 not 0-100)"
+    ],
+    [
+      "GAIR_Improving_Multimodal_Geo-Foundation_Model_with_Geo-Aligned_Implicit_Represe.pdf",
+      "f1=0.0 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.0192 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.0175 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.0092 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.0092 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.0071 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.0715 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.0231 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.023 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.032 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.0522 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.0551 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.0589 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.0398 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.0452 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.0729 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.074 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.0981 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.1417 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.2139 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.3189 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.3425 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.1632 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.2396 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.3886 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.3716 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.4048 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.4671 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.4678 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.525 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.5787 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.5048 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.5391 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.5979 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.5969 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.5488 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.6297 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.7009 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.7191 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.6512 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.7243 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.7215 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.7164 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.7395 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.737 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.7329 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.7178 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.737 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.6826 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.7229 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.737 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.7288 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.7632 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.7835 (looks 0-1 not 0-100)"
+    ],
+    [
+      "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf",
+      "map=0.7972 (looks 0-1 not 0-100)"
+    ],
+    [
+      "RS-DFM.pdf",
+      "map=0.662 (looks 0-1 not 0-100)"
+    ],
+    [
+      "RS-DFM.pdf",
+      "map=0.443 (looks 0-1 not 0-100)"
+    ],
+    [
+      "RS-DFM.pdf",
+      "map=0.634 (looks 0-1 not 0-100)"
+    ],
+    [
+      "RS-DFM.pdf",
+      "map=0.424 (looks 0-1 not 0-100)"
+    ],
+    [
+      "RS-DFM.pdf",
+      "map=0.638 (looks 0-1 not 0-100)"
+    ],
+    [
+      "RS-DFM.pdf",
+      "map=0.434 (looks 0-1 not 0-100)"
+    ],
+    [
+      "RS-DFM.pdf",
+      "map=0.631 (looks 0-1 not 0-100)"
+    ],
+    [
+      "RS-DFM.pdf",
+      "map=0.433 (looks 0-1 not 0-100)"
+    ],
+    [
+      "RS-DFM.pdf",
+      "map=0.461 (looks 0-1 not 0-100)"
+    ],
+    [
+      "RS-DFM.pdf",
+      "map=0.291 (looks 0-1 not 0-100)"
+    ],
+    [
+      "RS-DFM.pdf",
+      "map=0.137 (looks 0-1 not 0-100)"
+    ],
+    [
+      "RS-DFM.pdf",
+      "map=0.063 (looks 0-1 not 0-100)"
+    ],
+    [
+      "RingMo-Aerial_An_Aerial_Remote_Sensing_Foundation_Model_With_Affine_Transformati.pdf",
+      "map=0.492 (looks 0-1 not 0-100)"
+    ],
+    [
+      "RingMo-Aerial_An_Aerial_Remote_Sensing_Foundation_Model_With_Affine_Transformati.pdf",
+      "map=0.485 (looks 0-1 not 0-100)"
+    ],
+    [
+      "RingMo-Agent.pdf",
+      "f1=0.0 (looks 0-1 not 0-100)"
+    ],
+    [
+      "RingMo-Agent.pdf",
+      "f1=0.0 (looks 0-1 not 0-100)"
+    ],
+    [
+      "RingMo-Agent.pdf",
+      "f1=0.0 (looks 0-1 not 0-100)"
+    ],
+    [
+      "TOV_The_Original_Vision_Model_for_Optical_Remote_Sensing_Image_Understanding_via.pdf",
+      "map=0.9 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.486 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.608 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.645 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.744 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.851 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.62 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.695 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.726 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.786 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.879 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.622 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.73 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.76 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.793 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.86 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.656 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.751 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.778 (looks 0-1 not 0-100)"
+    ],
+    [
+      "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observ.pdf",
+      "map=0.823 (looks 0-1 not 0-100)"
+    ],
+    [
+      "WV-Net_A_foundation_model_for_SAR_WV-mode_satellite_imagery_trained_using_contra.pdf",
+      "map=0.013 (looks 0-1 not 0-100)"
+    ],
+    [
+      "WV-Net_A_foundation_model_for_SAR_WV-mode_satellite_imagery_trained_using_contra.pdf",
+      "map=0.127 (looks 0-1 not 0-100)"
+    ],
+    [
+      "WV-Net_A_foundation_model_for_SAR_WV-mode_satellite_imagery_trained_using_contra.pdf",
+      "map=0.184 (looks 0-1 not 0-100)"
+    ],
+    [
+      "WV-Net_A_foundation_model_for_SAR_WV-mode_satellite_imagery_trained_using_contra.pdf",
+      "map=0.297 (looks 0-1 not 0-100)"
+    ],
+    [
+      "WV-Net_A_foundation_model_for_SAR_WV-mode_satellite_imagery_trained_using_contra.pdf",
+      "map=0.13 (looks 0-1 not 0-100)"
+    ],
+    [
+      "WV-Net_A_foundation_model_for_SAR_WV-mode_satellite_imagery_trained_using_contra.pdf",
+      "map=0.119 (looks 0-1 not 0-100)"
+    ],
+    [
+      "WV-Net_A_foundation_model_for_SAR_WV-mode_satellite_imagery_trained_using_contra.pdf",
+      "map=0.845 (looks 0-1 not 0-100)"
+    ],
+    [
+      "WV-Net_A_foundation_model_for_SAR_WV-mode_satellite_imagery_trained_using_contra.pdf",
+      "map=0.901 (looks 0-1 not 0-100)"
+    ],
+    [
+      "WV-Net_A_foundation_model_for_SAR_WV-mode_satellite_imagery_trained_using_contra.pdf",
+      "map=0.223 (looks 0-1 not 0-100)"
+    ],
+    [
+      "WV-Net_A_foundation_model_for_SAR_WV-mode_satellite_imagery_trained_using_contra.pdf",
+      "map=0.398 (looks 0-1 not 0-100)"
+    ],
+    [
+      "WV-Net_A_foundation_model_for_SAR_WV-mode_satellite_imagery_trained_using_contra.pdf",
+      "map=0.016 (looks 0-1 not 0-100)"
+    ],
+    [
+      "WV-Net_A_foundation_model_for_SAR_WV-mode_satellite_imagery_trained_using_contra.pdf",
+      "map=0.021 (looks 0-1 not 0-100)"
+    ],
+    [
+      "WV-Net_A_foundation_model_for_SAR_WV-mode_satellite_imagery_trained_using_contra.pdf",
+      "map=0.024 (looks 0-1 not 0-100)"
+    ],
+    [
+      "WV-Net_A_foundation_model_for_SAR_WV-mode_satellite_imagery_trained_using_contra.pdf",
+      "map=0.02 (looks 0-1 not 0-100)"
+    ]
+  ],
+  "model_alias_explosion": [
+    [
+      "seco",
+      "SeCo|SeCo (ResNet-18)|SeCo (ResNet-50)"
+    ],
+    [
+      "caco",
+      "CACO|CACo|CACo ViT-Base|CaCO|CaCo"
+    ],
+    [
+      "satmae",
+      "SatMAE|SatMAE (RGB)|SatMAE (S2)|SatMAE*|SatMAE++|SatMAE++ (RGB)|SatMAE++ (S2)"
+    ],
+    [
+      "scalemae",
+      "Scale-MAE|Scale-MAE ViT-Base|Scale-MAE ViT-Large|ScaleMAE|ScaleMAE-ViT-300M"
+    ],
+    [
+      "resnet18",
+      "ResNet-18|ResNet-18 (Colorization)|ResNet-18 (ImageNet)|ResNet-18 (from scratch)|ResNet18"
+    ],
+    [
+      "anysat",
+      "AnySat|AnySat ViT-Base|Anysat"
+    ],
+    [
+      "presto",
+      "PRESTO|Presto|Presto (depth 4)|Presto (width 256)"
+    ],
+    [
+      "unet",
+      "U-Net|U-Net (DeepLabV3)|U-Net (ResNet-50)|U-Net++|UNet"
+    ],
+    [
+      "skysense",
+      "SkySense|SkySense ViT-Base|Skysense"
+    ],
+    [
+      "spectralgpt",
+      "SpectralGPT|SpectralGPT Unknown|SpectralGPT+"
+    ],
+    [
+      "prithvi",
+      "Prithvi|Prithvi (not pretrained)|Prithvi 1.0 100M|Prithvi ViT-Base"
+    ],
+    [
+      "prithvi2",
+      "Prithvi 2.0|Prithvi-2.0|Prithvi-EO-2.0|Prithvi2"
+    ],
+    [
+      "satlas",
+      "SatLas|SatLas (S2)|Satlas|SatlasNet|SatlasNet Unknown"
+    ],
+    [
+      "gfm",
+      "GFM|GFM Swin-Base|GFM ViT-Base|GFM-Swin"
+    ],
+    [
+      "mocov2",
+      "MoCo v2|MoCo-V2|MoCo-V2 (pre. on IN)|MoCo-v2|MoCo-v2 (ResNet-18)|MoCo-v2 (ResNet-50)|MoCoV2|MoCov2"
+    ],
+    [
+      "randominit",
+      "Random Init|Random Init.|Random init.|Random init. (ResNet-18)|Random init. (ResNet-50)"
+    ],
+    [
+      "imagenet",
+      "ImageNet|ImageNet (ResNet-18)|ImageNet (ResNet-50)|ImageNet (sup.) (ResNet-18)|ImageNet (sup.) (ResNet-50)"
+    ],
+    [
+      "resnet50unet",
+      "ResNet50 + U-Net (ImageNet)|ResNet50 + U-Net (Random)|ResNet50 + U-Net (SAR)|ResNet50 + U-Net (SAR+EO)|ResNet50 + U-Net (SAR+GT)|ResNet50 + U-Net (SAR+GT+EO)"
+    ],
+    [
+      "resnet50bisenet",
+      "ResNet50 + BiSeNet (ImageNet)|ResNet50 + BiSeNet (Random)|ResNet50 + BiSeNet (SAR)|ResNet50 + BiSeNet (SAR+EO)|ResNet50 + BiSeNet (SAR+GT)|ResNet50 + BiSeNet (SAR+GT+EO)"
+    ],
+    [
+      "resnet50deeplabv3",
+      "ResNet50 + DeepLabV3 (ImageNet)|ResNet50 + DeepLabV3 (Random)|ResNet50 + DeepLabV3 (SAR)|ResNet50 + DeepLabV3 (SAR+EO)|ResNet50 + DeepLabV3 (SAR+GT)|ResNet50 + DeepLabV3 (SAR+GT+EO)"
+    ],
+    [
+      "resnext50deeplabv3",
+      "ResNext50 + DeepLabV3 (ImageNet)|ResNext50 + DeepLabV3 (Random)|ResNext50 + DeepLabV3 (SAR)|ResNext50 + DeepLabV3 (SAR+EO)|ResNext50 + DeepLabV3 (SAR+GT)|ResNext50 + DeepLabV3 (SAR+GT+EO)"
+    ],
+    [
+      "resnest50deeplabv3",
+      "Resnest50 + DeepLabV3 (ImageNet)|Resnest50 + DeepLabV3 (Random)|Resnest50 + DeepLabV3 (SAR)|Resnest50 + DeepLabV3 (SAR+EO)|Resnest50 + DeepLabV3 (SAR+GT)|Resnest50 + DeepLabV3 (SAR+GT+EO)"
+    ],
+    [
+      "sgcn",
+      "SGCN|SGCN (real+synthetic)|SGCN (synthetic data)"
+    ],
+    [
+      "mae",
+      "MAE|MAE ImageNet|MAE ViT-S/16|MAE-ImageNet"
+    ],
+    [
+      "vitbase",
+      "ViT-Base|ViT-Base (ImageNet-22k)|ViT-Base (scratch)|ViT-base"
+    ],
+    [
+      "changestarchangen2",
+      "ChangeStar (1x256, SwinV2-B) + Changen2|ChangeStar (1x256, ViT-B) + Changen2|ChangeStar (1x256, ViT-L) + Changen2|ChangeStar (1x96) + Changen2|ChangeStar (1x96, MiT-B1) + Changen2"
+    ],
+    [
+      "simclr",
+      "SimCLR|SimCLR (RGB)|SimCLR (ResNet-18)|SimCLR (ResNet-50)"
+    ],
+    [
+      "crossscalemae",
+      "Cross-Scale MAE|Cross-Scale MAE ViT-Base|CrossScaleMAE"
+    ],
+    [
+      "supervisedbaseline",
+      "Supervised Baseline|Supervised baseline|Supervised baseline (ImageNet)"
+    ],
+    [
+      "xstars",
+      "X-STARS|X-STARS (LS\u2192S2)|X-STARS (LS\u2192S6)|X-STARS (S2-LS)|X-STARS (S2\u2192S6)|X-STARS (S6\u2192BDORTHO)|X-STARS (S6\u2192S2)|X-STARS (ViT-Base)|X-STARS (ViT-Large)|X-STARS (ViT-Tiny)"
+    ],
+    [
+      "dino",
+      "DINO|DINO ResNet-50|DINO ViT-S/16|DINO-Resnet50"
+    ],
+    [
+      "resnet50",
+      "ResNet-50|ResNet50|ResNet50 (ImageNet-1k)"
+    ],
+    [
+      "swintiny",
+      "Swin Tiny (FIFB)|Swin Tiny (MIM)|Swin Tiny (Supervised)|Swin-Tiny"
+    ],
+    [
+      "dynamicvisbase",
+      "DynamicVis-Base|DynamicVis-Base (CE)|DynamicVis-Base (MIL)|DynamicVis-Base (baseline)|DynamicVis-Base (routing only)"
+    ],
+    [
+      "dynamicvislarge",
+      "DynamicVis-Large|DynamicVis-Large (CE)|DynamicVis-Large (MIL)|DynamicVis-Large (baseline)|DynamicVis-Large (routing only)"
+    ],
+    [
+      "fasterrcnn",
+      "Faster R-CNN|FasterRCNN (r18)|FasterRCNN (r50)"
+    ],
+    [
+      "earthdial",
+      "EarthDial|EarthDial (average pooling)|EarthDial (bilinear interpolation)|EarthDial (with pretraining)|EarthDial (without pretraining)"
+    ],
+    [
+      "minigptv2",
+      "MiniGPT-V2|MiniGPT-v2|MiniGPT-v2 (ZS)|MiniGPTV2|MiniGPTv2"
+    ],
+    [
+      "llava15",
+      "LLaVA-1.5|LLaVA-1.5 (ZS)|LLaVa-1.5"
+    ],
+    [
+      "fgmae",
+      "FG-MAE|FG-MAE (HOG)|FG-MAE (HOG+NDI)|FG-MAE (ours)|FGMAE"
+    ],
+    [
+      "deeplabv3",
+      "DeepLab V3+|DeepLab-v3|DeepLabV3+|DeepLabv3|DeeplabV3+ (Swin Tiny)|DeeplabV3+ (Swin Tiny) (MIM)|DeeplabV3+ (Swin Tiny) (Supervised)|DeeplabV3+ (r18)|DeeplabV3+ (r50)|Deeplabv3"
+    ],
+    [
+      "mocov2tp",
+      "MoCo-V2+TP|MoCo-v2+TP (ResNet-18)|MoCo-v2+TP (ResNet-50)"
+    ],
+    [
+      "graft",
+      "GRAFT (ViT-B/16)|GRAFT (ViT-B/32)|GRAFT (pixel-level)"
+    ],
+    [
+      "softcon",
+      "SoftCon|SoftCon (RN50)|SoftCon (ViT-B)|SoftCon (ViT-S)"
+    ],
+    [
+      "random",
+      "Random|Random (ResNet-18)|Random (ResNet-50)"
+    ],
+    [
+      "moco",
+      "MoCo|MoCo (ResNet-18)|MoCo (ResNet-50)"
+    ],
+    [
+      "geokr",
+      "GeoKR|GeoKR (ResNet50)|GeoKR (VGG16)|GeoKR* (ResNet50)|GeoKR* (VGG16)"
+    ],
+    [
+      "dofaclipb",
+      "DOFA-CLIP-B|DOFA-CLIP-B (Merging) (ours)|DOFA-CLIP-B (Mixed) (baseline)|DOFA-CLIP-B (Others)|DOFA-CLIP-B (RGB)"
+    ],
+    [
+      "fcef",
+      "FC-EF|FC-EF (State of Art baseline)|FC-EF*"
+    ],
+    [
+      "fullysupervised",
+      "Fully Supervised|Fully Supervised (ConvNeXt)|Fully Supervised (UNet)"
+    ],
+    [
+      "visionperceiver",
+      "Vision Perceiver (multi-level, [32,48,64])|Vision Perceiver (multi-level, [64,48,32] descending)|Vision Perceiver (multi-level, [64,64,64])|Vision Perceiver (single level, 64 queries)"
+    ],
+    [
+      "mocov3",
+      "MoCo v3|MoCo-V3|MoCo-v3|MoCo-v3 ViT-S/16"
+    ],
+    [
+      "copernicusfm",
+      "Copernicus-FM|Copernicus-FM (ViT-Small ablation + bandwidth)|Copernicus-FM (ViT-Small ablation + distillation)|Copernicus-FM (ViT-Small ablation + metadata)|Copernicus-FM (ViT-Small ablation + variable hypernetwork)|Copernicus-FM (ViT-Small ablation)|CopernicusFM"
+    ],
+    [
+      "reppoints",
+      "RepPoints|Reppoints (Swin Tiny) (MIM)|Reppoints (Swin-Tiny)|Reppoints (r18)|Reppoints (r50)"
+    ],
+    [
+      "georsclip",
+      "GeoRSCLIP|GeoRSCLIP (ViT-B-32, Full Finetuning)|GeoRSCLIP (ViT-B-32, LoRA)|GeoRSCLIP (ViT-B-32, Pfeiffer)|GeoRSCLIP (ViT-B-32, Prefix-tuning)|GeoRSCLIP (ViT-B-32, UniPELT)|GeoRSCLIP (ViT-H-14)"
+    ],
+    [
+      "georsclipft",
+      "GeoRSCLIP-FT (ViT-B-32, RET-2)|GeoRSCLIP-FT (ViT-B-32, RSICD)|GeoRSCLIP-FT (ViT-B-32, RSITMD)"
+    ],
+    [
+      "minigpt4",
+      "MiniGPT-4|MiniGPT-4 (ZS)|MiniGPT4"
+    ],
+    [
+      "pspnet",
+      "PSPNet|PSPNet (Swin Tiny)|PSPNet (r18)|PSPNet (r50)"
+    ],
+    [
+      "s2mae",
+      "S2MAE|S2MAE (ViT-Base)|S2MAE (ViT-Huge)|S2MAE (ViT-Large)|S2MAE* (ViT-Base)|S2MAE* (ViT-Huge)|S2MAE* (ViT-Large)"
+    ],
+    [
+      "satdifuser",
+      "SatDiFuser (Global fusion)|SatDiFuser (Localized fusion)|SatDiFuser (MoE fusion)"
+    ],
+    [
+      "cont",
+      "cont. (DINO)|cont. (DINOv2)|cont. (ImageNet)|cont. (MoCov3)"
+    ],
+    [
+      "specrn50",
+      "Spec. RN50 (DINO)|Spec. RN50 (MoCo-V2)|Spec. RN50 (Random)"
+    ],
+    [
+      "specvits",
+      "Spec. ViT-S (DINO)|Spec. ViT-S (MAE)|Spec. ViT-S (MoCo-V2)"
+    ]
+  ],
+  "bench_alias_explosion": [
+    [
+      "bigearthnets2",
+      "BEN-S2 | BigEarthNet | BigEarthNet (BEN) | BigEarthNet-S2"
+    ],
+    [
+      "nwpuresisc45",
+      "NWPU-RESISC | NWPU-RESISC45 | RESISC-45 | RESISC45"
+    ],
+    [
+      "ucmerced",
+      "UC Merced | UC Merced Land Use | UC Merced Land Use (UCM) | UC-Merced | UCM | UCMerced | UCMerced-LandUse"
+    ],
+    [
+      "mcashewplantation",
+      "m-Cashew-Plant | m-Cashew-Plantation | m-cashew-plant | m-cashew-plantation | m-cashewplant"
+    ],
+    [
+      "modisbandreconstruction",
+      "MODIS Band Reconstruction | MODIS Band Reconstruction (Ch1) | MODIS Band Reconstruction (Ch2) | MODIS Band Reconstruction (Ch21) | MODIS Band Reconstruction (Ch26) | MODIS Band Reconstruction (Ch27) | MODIS Band Reconstruction (Ch28) | MODIS Band Reconstruction (Ch29) | MODIS Band Reconstruction (Ch3) | MODIS Band Reconstruction (Ch30) | MODIS Band Reconstruction (Ch31) | MODIS Band Reconstruction (Ch32) | MODIS Band Reconstruction (Ch33) | MODIS Band Reconstruction (Ch6) | MODIS Band Reconstruction (Ch7) | MODIS Band Reconstruction (L1 Loss)"
+    ]
+  ],
+  "compute_flagged_but_empty": [
+    [
+      "A_generalizable_and_accessible_approach_to_machine_learning_with_global_satellite_imagery.pdf",
+      ""
+    ],
+    [
+      "CrossEarth_Geospatial_Vision_Foundation_Model_for_Domain_Generalizable_Remote_Sensing_Semantic_Segmentation.pdf",
+      ""
+    ],
+    [
+      "CtxMIM_Context-Enhanced_Masked_Image_Modeling_for_Remote_Sensing_Image_Understanding.pdf",
+      ""
+    ],
+    [
+      "FlexiMo_A_Flexible_Remote_Sensing_Foundation_Model.pdf",
+      ""
+    ],
+    [
+      "Galileo_Learning_Global_Local_Features_of_Many_Remote_Sensing_Modalities.pdf",
+      ""
+    ],
+    [
+      "LeMeViT.pdf",
+      ""
+    ],
+    [
+      "MA3E_Masked_Angle-Aware_Autoencoder_for_Remote_Sensing_Images.pdf",
+      ""
+    ],
+    [
+      "MTP_Advancing_Remote_Sensing_Foundation_Model_via_Multi-Task_Pretraining.pdf",
+      ""
+    ],
+    [
+      "MetaEarth_A_Generative_Foundation_Model_for_Global-Scale_Remote_Sensing_Image_Generation.pdf",
+      ""
+    ],
+    [
+      "OlmoEarth_Stable_Latent_Image_Modeling_for_Multimodal_Earth_Observation.pdf",
+      ""
+    ],
+    [
+      "Presto_Lightweight_Pre-trained_Transformers_for_Remote_Sensing_Timeseries.pdf",
+      ""
+    ],
+    [
+      "Prithvi-EO-20_A_Versatile_Multi-Temporal_Foundation_Model_for_Earth_Observation_Applications.pdf",
+      ""
+    ],
+    [
+      "RS-vHeat.pdf",
+      ""
+    ],
+    [
+      "RS5M_and_GeoRSCLIP_A_Large_Scale_Vision-Language_Dataset_and_A_Large_Vision-Language_Model_for_Remote_Sensing.pdf",
+      ""
+    ],
+    [
+      "RSP.pdf",
+      ""
+    ],
+    [
+      "Representation_Learning_for_Remote_Sensing_An_Unsupervised_Sensor_Fusion_Approach.pdf",
+      ""
+    ],
+    [
+      "SatCLIP_Global_General-Purpose_Location_Embeddings_with_Satellite_Imagery.pdf",
+      ""
+    ],
+    [
+      "SeaMo_A_Multi-Seasonal_and_Multimodal_Remote_Sensing_Foundation_Model.pdf",
+      ""
+    ],
+    [
+      "TiMo.pdf",
+      ""
+    ],
+    [
+      "U-BARN.pdf",
+      ""
+    ]
+  ],
+  "gpu_count_absurd": [
+    [
+      "SkySense.pdf",
+      "gpu_count_max=4600"
+    ]
+  ]
+}

@@ -1,0 +1,159 @@
+AlphaEarth.pdf
+  ours: AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data
+  s2:   AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data
+
+BillionPFM.pdf
+  ours: A Billion-scale Foundation Model for Remote Sensing Images
+  s2:   A Billion-scale Foundation Model for Remote Sensing Images
+
+CGEarthEye.pdf
+  ours: CGEarthEye: A High-Resolution Remote Sensing Vision Foundation Model Based on the Jilin-1 Satellite Constellation
+  s2:   CGEarthEye:A High-Resolution Remote Sensing Vision Foundation Model Based on the Jilin-1 Satellite Constellation
+
+CRS-Diff.pdf
+  ours: CRS-Diff: Controllable Remote Sensing Image Generation with Diffusion Model
+  s2:   CRS-Diff: Controllable Remote Sensing Image Generation With Diffusion Model
+
+CSMAE.pdf
+  ours: Exploring Masked Autoencoders for Sensor-Agnostic Image Retrieval in Remote Sensing
+  s2:   Exploring Masked Autoencoders for Sensor-Agnostic Image Retrieval in Remote Sensing
+
+CSPT.pdf
+  ours: Consecutive Pre-Training: A Knowledge Transfer Learning Strategy with Relevant Unlabeled Data for Remote Sensing Domain
+  s2:   Consecutive Pretraining: A Knowledge Transfer Learning Strategy with Relevant Unlabeled Data for Remote Sensing Domain
+
+DynamicVis.pdf
+  ours: DynamicVis: Dynamic Visual Perception for Efficient Remote Sensing Foundation Models
+  s2:   DynamicVis: Dynamic Visual Perception for Efficient Remote Sensing Foundation Models
+
+EarthMarker.pdf
+  ours: EarthMarker: A Visual Prompting Multi-modal Large Language Model for Remote Sensing
+  s2:   EarthMarker: A Visual Prompting Multimodal Large Language Model for Remote Sensing
+
+GASSL.pdf
+  ours: Geography-Aware Self-Supervised Learning
+  s2:   Geography-Aware Self-Supervised Learning
+
+GFM.pdf
+  ours: Towards Geospatial Foundation Models via Continual Pretraining
+  s2:   Towards Geospatial Foundation Models via Continual Pretraining
+
+GRAFT.pdf
+  ours: Remote Sensing Vision-Language Foundation Models without Annotations via Ground Remote Alignment
+  s2:   Remote Sensing Vision-Language Foundation Models without Annotations via Ground Remote Alignment
+
+GeoKR.pdf
+  ours: Geographical Knowledge-driven Representation Learning for Remote Sensing Images
+  s2:   Geographical Knowledge-Driven Representation Learning for Remote Sensing Images
+
+GeoPixel.pdf
+  ours: GeoPixel: Pixel Grounding Large Multimodal Model in Remote Sensing
+  s2:   GeoPixel: Pixel Grounding Large Multimodal Model in Remote Sensing
+
+HSIGene.pdf
+  ours: HSIGene: A Foundation Model for Hyperspectral Image Generation
+  s2:   HSIGene: A Foundation Model for Hyperspectral Image Generation
+
+HyperSIGMA.pdf
+  ours: HyperSIGMA: Hyperspectral Intelligence Comprehension Foundation Model
+  s2:   HyperSIGMA: Hyperspectral Intelligence Comprehension Foundation Model
+
+LHRS-Bot-Nova.pdf
+  ours: LHRS-Bot-Nova: Improved Multimodal Large Language Model for Remote Sensing Vision-Language Interpretation
+  s2:   LHRS-Bot-Nova: Improved Multimodal Large Language Model for Remote Sensing Vision-Language Interpretation
+
+LeMeViT.pdf
+  ours: LeMeViT: Efficient Vision Transformer with Learnable Meta Tokens for Remote Sensing Image Interpretation
+  s2:   LeMeViT: Efficient Vision Transformer with Learnable Meta Tokens for Remote Sensing Image Interpretation
+
+MAPEX.pdf
+  ours: MAPEX: Modality-Aware Pruning of Experts for Remote Sensing Foundation Models
+  s2:   MAPEX: Modality-Aware Pruning of Experts for Remote Sensing Foundation Models
+
+MMEarth.pdf
+  ours: MMEarth: Exploring Multi-Modal Pretext Tasks For Geospatial Representation Learning
+  s2:   MMEarth: Exploring Multi-Modal Pretext Tasks For Geospatial Representation Learning
+
+OFA-Net.pdf
+  ours: One for All: Toward Unified Foundation Models for Earth Vision
+  s2:   One for All: Toward Unified Foundation Models for Earth Vision
+
+PIEViT.pdf
+  ours: Pattern Integration and Enhancement Vision Transformer for Self-supervised Learning in Remote Sensing
+  s2:   Pattern Integration and Enhancement Vision Transformer for Self-Supervised Learning in Remote Sensing
+
+RS-DFM.pdf
+  ours: RS-DFM: A Remote Sensing Distributed Foundation Model for Diverse Downstream Tasks
+  s2:   RS-DFM: A Remote Sensing Distributed Foundation Model for Diverse Downstream Tasks
+
+RS-vHeat.pdf
+  ours: RS-vHeat: Heat Conduction Guided Efficient Remote Sensing Foundation Model
+  s2:   RS-vHeat: Heat Conduction Guided Efficient Remote Sensing Foundation Model
+
+RSP.pdf
+  ours: An Empirical Study of Remote Sensing Pretraining
+  s2:   An Empirical Study of Remote Sensing Pretraining
+
+RVSA.pdf
+  ours: Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model
+  s2:   Advancing Plain Vision Transformer Toward Remote Sensing Foundation Model
+
+RingMo-Agent.pdf
+  ours: RingMo-Agent: A Unified Remote Sensing Foundation Model for Multi-Platform and Multi-Modal Reasoning
+  s2:   RingMo-Agent: A Unified Remote Sensing Foundation Model for Multi-Platform and Multi-Modal Reasoning
+
+RingMoE.pdf
+  ours: RingMoE: Mixture-of-Modality-Experts Multi-Modal Foundation Models for Universal Remote Sensing Image Interpretation
+  s2:   RingMoE: Mixture-of-Modality-Experts Multi-Modal Foundation Models for Universal Remote Sensing Image Interpretation
+
+SAR-JEPA.pdf
+  ours: Predicting Gradient is Better: Exploring Self-Supervised Learning for SAR ATR with a Joint-Embedding Predictive Architecture
+  s2:   Predicting gradient is better: Exploring self-supervised learning for SAR ATR with a joint-embedding predictive architecture
+
+SatDiFuser.pdf
+  ours: Can Generative Geospatial Diffusion Models Excel as Discriminative Geospatial Foundation Models?
+  s2:   Can Generative Geospatial Diffusion Models Excel as Discriminative Geospatial Foundation Models?
+
+SemanticAware.pdf
+  ours: Semantic-aware Dense Representation Learning for Remote Sensing Image Change Detection
+  s2:   Semantic-Aware Dense Representation Learning for Remote Sensing Image Change Detection
+
+SenPa-MAE.pdf
+  ours: SenPa-MAE: Sensor Parameter Aware Masked Autoencoder for Multi-Satellite Self-Supervised Pretraining
+  s2:   SenPa-MAE: Sensor Parameter Aware Masked Autoencoder for Multi-Satellite Self-Supervised Pretraining
+
+SkySense-V2.pdf
+  ours: SkySense V2: A Unified Foundation Model for Multi-modal Remote Sensing
+  s2:   SkySense V2: A Unified Foundation Model for Multi-Modal Remote Sensing
+
+SkySenseGPT.pdf
+  ours: SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding
+  s2:   SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding
+
+SwiMDiff.pdf
+  ours: SwiMDiff: Scene-wide Matching Contrastive Learning with Diffusion Constraint for Remote Sensing Image
+  s2:   SwiMDiff: Scene-Wide Matching Contrastive Learning With Diffusion Constraint for Remote Sensing Image
+
+TEOChat.pdf
+  ours: TEOChat: A Large Vision-Language Assistant for Temporal Earth Observation Data
+  s2:   TEOChat: A Large Vision-Language Assistant for Temporal Earth Observation Data
+
+TESSERA.pdf
+  ours: TESSERA: Temporal Embeddings of Surface Spectra for Earth Representation and Analysis
+  s2:   TESSERA: Temporal Embeddings of Surface Spectra for Earth Representation and Analysis
+
+TerraFM.pdf
+  ours: TerraFM: A Scalable Foundation Model for Unified Multisensor Earth Observation
+  s2:   TerraFM: A Scalable Foundation Model for Unified Multisensor Earth Observation
+
+TiMo.pdf
+  ours: TiMo: Spatiotemporal Foundation Model for Satellite Image Time Series
+  s2:   TiMo: Spatiotemporal Foundation Model for Satellite Image Time Series
+
+U-BARN.pdf
+  ours: Self-Supervised Spatio-Temporal Representation Learning Of Satellite Image Time Series
+  s2:   Self-Supervised Spatio-Temporal Representation Learning of Satellite Image Time Series
+
+RingMo.pdf
+  ours: RingMo
+  s2:   RingMo-Agent: A Unified Remote Sensing Foundation Model for Multi-Platform and Multi-Modal Reasoning
