@@ -1,19 +1,25 @@
-name: Deploy to Cloudflare Pages
+name: Deploy to GitHub Pages
 
-# When `app` is merged into `main`, flip the trigger branch below to [main]
-# and update the Cloudflare project's production branch via the CF dashboard
-# (or `wrangler pages project ...`). Nothing else needs to change.
+# Deploys the Vite build (app/dist) to GitHub Pages.
+# Triggered on pushes to `app`; flip to [main] once that becomes the canonical branch.
 on:
   push:
     branches: [app]
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one Pages deployment can run at a time; queue new pushes, cancel mid-flight.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      deployments: write
     steps:
       - uses: actions/checkout@v4
 
@@ -29,9 +35,16 @@ jobs:
         working-directory: app
         run: bun run build
 
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
+      - uses: actions/upload-pages-artifact@v3
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy app/dist --project-name=gfm-leaderboard --branch=app
+          path: app/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
