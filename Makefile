@@ -1,4 +1,4 @@
-.PHONY: help install install-bun install-uv install-python install-js app build preview lint clean data embeddings audit
+.PHONY: help install install-bun install-uv install-python install-js app build preview lint clean data embeddings audit deploy
 
 help:
 	@echo "make install     install bun + uv (if missing), Python deps, JS deps"
@@ -8,6 +8,7 @@ help:
 	@echo "make data        regenerate app/data/* from data/ (no network)"
 	@echo "make embeddings  refresh SPECTER2 cache + UMAP + citation graph (S2 API)"
 	@echo "make audit       run the data-quality audit fixer (S2 API)"
+	@echo "make deploy      publish app/dist/ to Cloudflare Pages (state-of-geofms)"
 	@echo "make lint        biome check on the app sources"
 	@echo "make clean       remove node_modules, dist, .venv"
 
@@ -63,6 +64,9 @@ embeddings:
 
 audit:
 	uv run --script src/audit_fix.py
+
+deploy: build
+	cd app && unset CLOUDFLARE_API_TOKEN && wrangler pages deploy dist --project-name state-of-geofms --branch app --commit-dirty=true
 
 clean:
 	rm -rf app/node_modules app/dist app/.vite .venv
