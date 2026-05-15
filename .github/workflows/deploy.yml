@@ -1,22 +1,19 @@
-name: Deploy
+name: Deploy to Cloudflare Pages
 
+# When `app` is merged into `main`, flip the trigger branch below to [main]
+# and update the Cloudflare project's production branch via the CF dashboard
+# (or `wrangler pages project ...`). Nothing else needs to change.
 on:
   push:
-    branches: [main]
+    branches: [app]
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: true
-
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
     steps:
       - uses: actions/checkout@v4
 
@@ -25,24 +22,16 @@ jobs:
           bun-version: latest
 
       - name: Install dependencies
+        working-directory: app
         run: bun install --frozen-lockfile
 
-      - name: Lint
-        run: bun run lint
-
       - name: Build
+        working-directory: app
         run: bun run build
 
-      - uses: actions/upload-pages-artifact@v3
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
         with:
-          path: dist
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - uses: actions/deploy-pages@v4
-        id: deployment
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy app/dist --project-name=gfm-leaderboard --branch=app
