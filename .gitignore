@@ -223,3 +223,4 @@ __marimo__/
 node_modules/
 dist/
 tsconfig.tsbuildinfo
+.wrangler/
