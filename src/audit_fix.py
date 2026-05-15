@@ -39,8 +39,15 @@ CITATIONS_PATH = CACHE / "citations.json"
 S2_BATCH_URL = "https://api.semanticscholar.org/graph/v1/paper/batch"
 S2_MATCH_URL = "https://api.semanticscholar.org/graph/v1/paper/search/match"
 S2_SEARCH_URL = "https://api.semanticscholar.org/graph/v1/paper/search"
-EMB_FIELDS = "paperId,externalIds,title,citationCount,embedding.specter_v2,references.paperId"
-CIT_FIELDS = "paperId,externalIds,title,citationCount,influentialCitationCount,year,venue,openAccessPdf"
+EMB_FIELDS = (
+    "paperId,externalIds,title,citationCount,embedding.specter_v2,"
+    "references.paperId,references.isInfluential"
+)
+CIT_FIELDS = (
+    "paperId,externalIds,title,citationCount,influentialCitationCount,year,venue,journal,"
+    "publicationDate,tldr,openAccessPdf,authors.authorId,authors.name,authors.hIndex,"
+    "authors.paperCount,authors.citationCount"
+)
 
 # Manual S2 paperId pins for cases the auto-resolver gets wrong.
 MANUAL_S2_IDS: dict[str, str] = {
@@ -236,6 +243,45 @@ def main() -> None:
         print(f"  cache updated for {replaced} papers")
         EMB_PATH.write_text(json.dumps(emb_cache))
 
+    # 3b. Refresh per-reference isInfluential flags. The batch endpoint doesn't expose nested
+    # reference fields, so we hit /paper/{id}/references per paper to pick up S2's influence flag.
+    refs_pids = [pid for pid in canonical if (emb_cache.get(pid) or {}).get("paperId")]
+    refs_stale = [
+        pid for pid in refs_pids
+        if any("isInfluential" not in r for r in (emb_cache[pid].get("references") or []))
+    ]
+    if refs_stale:
+        print(f"refreshing references (with isInfluential) for {len(refs_stale)} papers")
+        for i, pid in enumerate(refs_stale, 1):
+            sid = emb_cache[pid]["paperId"]
+            r = s2_get(
+                f"https://api.semanticscholar.org/graph/v1/paper/{sid}/references",
+                {"fields": "paperId,isInfluential", "limit": "1000"},
+                api_key,
+            )
+            time.sleep(0.4)
+            if r is None or r.status_code != 200:
+                continue
+            payload = r.json()
+            items = payload.get("data") or []
+            if items is None:
+                # Some publishers elide references; leave the existing list alone.
+                continue
+            refs = []
+            for it in items:
+                cited = it.get("citedPaper") or {}
+                if cited.get("paperId"):
+                    refs.append({
+                        "paperId": cited["paperId"],
+                        "isInfluential": bool(it.get("isInfluential")),
+                    })
+            if refs:
+                emb_cache[pid]["references"] = refs
+            if i % 20 == 0:
+                print(f"  {i}/{len(refs_stale)}")
+                EMB_PATH.write_text(json.dumps(emb_cache))
+        EMB_PATH.write_text(json.dumps(emb_cache))
+
     # 4. Refresh citationCount for every canonical paper we have a resolved S2 id for.
     s2_ids: list[tuple[str, str]] = []
     for pid in canonical:
@@ -257,7 +303,21 @@ def main() -> None:
                     "influentialCitationCount": resp.get("influentialCitationCount"),
                     "year": resp.get("year"),
                     "venue": resp.get("venue"),
+                    "journal": (resp.get("journal") or {}).get("name"),
+                    "publicationDate": resp.get("publicationDate"),
+                    "tldr": (resp.get("tldr") or {}).get("text"),
                     "openAccess": bool((resp.get("openAccessPdf") or {}).get("url")),
+                    # Trim author records to the fields the app actually renders.
+                    "authors": [
+                        {
+                            "authorId": a.get("authorId"),
+                            "name": a.get("name"),
+                            "hIndex": a.get("hIndex"),
+                            "paperCount": a.get("paperCount"),
+                            "citationCount": a.get("citationCount"),
+                        }
+                        for a in (resp.get("authors") or [])
+                    ],
                 }
         CITATIONS_PATH.write_text(json.dumps(citations))
         print(f"  wrote {CITATIONS_PATH.relative_to(ROOT)}")

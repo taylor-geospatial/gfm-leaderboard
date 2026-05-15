@@ -190,7 +190,7 @@ function main() {
       title: e.title ?? null,
       year: e.year ?? cit?.year ?? null,
       model_name: e.model_name ?? null,
-      venue: cit?.venue || deriveVenue(work),
+      venue: cit?.journal || cit?.venue || deriveVenue(work),
       self_describes_fm: false,
       n_results: resultsByCanonical.get(id)?.length ?? 0,
       citation_count: cit?.citationCount ?? work?.cited_by_count ?? null,
@@ -199,7 +199,7 @@ function main() {
       code_available: e.code_available ?? null,
       code_url: e.code_url ?? null,
       weights_available: e.weights_available ?? null,
-      tldr: e.key_contribution ?? null,
+      tldr: cit?.tldr ?? e.key_contribution ?? null,
       abstract: decodeAbstractInvertedIndex(work?.abstract_inverted_index),
       key_contribution: e.key_contribution ?? null,
       architecture: {
@@ -235,6 +235,15 @@ function main() {
       s2_id: s2Id,
       arxiv_url: arxivId ? `https://arxiv.org/abs/${arxivId}` : null,
       s2_url: s2Id ? `https://www.semanticscholar.org/paper/${s2Id}` : null,
+      publication_date: cit?.publicationDate ?? null,
+      s2_tldr: cit?.tldr ?? null,
+      authors: (cit?.authors ?? []).filter((a) => a.name).map((a) => ({
+        authorId: a.authorId ?? null,
+        name: a.name,
+        hIndex: a.hIndex ?? null,
+        paperCount: a.paperCount ?? null,
+        citationCount: a.citationCount ?? null,
+      })),
     };
   });
 

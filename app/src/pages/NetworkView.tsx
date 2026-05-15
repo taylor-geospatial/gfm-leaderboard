@@ -70,8 +70,7 @@ export function NetworkView({ data }: { data: Dataset }) {
   const [cursor, setCursor] = React.useState<{ x: number; y: number } | null>(null);
   const [selectedFamily, setSelectedFamily] = React.useState<Family | "all">("all");
   const [query, setQuery] = React.useState("");
-  // Semantic Scholar references are not tagged as "influential" in our pipeline; treat all
-  // intra-corpus citation edges equally.
+  const [influentialOnly, setInfluentialOnly] = React.useState(false);
   const [growMode, setGrowMode] = React.useState(false);
   const [yearProgress, setYearProgress] = React.useState(1);
   const [, bumpFrame] = React.useState(0);
@@ -219,6 +218,7 @@ export function NetworkView({ data }: { data: Dataset }) {
 
       // Edges (only between visible nodes)
       for (const e of edges) {
+        if (influentialOnly && !e.influential) continue;
         const src = proj.get(e.source);
         const tgt = proj.get(e.target);
         if (!src || !tgt) continue;
@@ -312,6 +312,7 @@ export function NetworkView({ data }: { data: Dataset }) {
     }
 
     for (const e of edges) {
+      if (influentialOnly && !e.influential) continue;
       const src = nodeByS2.get(e.source);
       const tgt = nodeByS2.get(e.target);
       if (!src || !tgt) continue;
@@ -491,9 +492,9 @@ export function NetworkView({ data }: { data: Dataset }) {
         <div>
           <h2 className="text-xl font-semibold tracking-tight">Citation Network</h2>
           <p className="text-[12.5px] text-muted-foreground mt-0.5">
-            Within-corpus citations — {nodes.length} papers, {edges.length} edges. Z-axis =
-            publication year ({yearMin}–{yearMax}). Drag to rotate · scroll to zoom · click hub
-            to open paper.
+            Within-corpus citations — {nodes.length} papers, {influentialOnly ? `${edges.filter((e) => e.influential).length} influential` : edges.length}{" "}
+            edges. Z-axis = publication year ({yearMin}–{yearMax}). Drag to rotate · scroll to zoom
+            · click hub to open paper.
           </p>
         </div>
         <div className="sm:ml-auto flex items-center gap-2 flex-wrap">
@@ -560,6 +561,18 @@ export function NetworkView({ data }: { data: Dataset }) {
             )}
           >
             {growMode ? "Stop replay" : "Replay growth"}
+          </button>
+          <button
+            type="button"
+            onClick={() => setInfluentialOnly((v) => !v)}
+            className={cn(
+              "h-8 px-3 rounded-md border text-[12.5px] transition-colors",
+              influentialOnly
+                ? "border-brand-500 bg-brand-500/10 text-brand-500"
+                : "border-border text-muted-foreground hover:text-foreground hover:bg-muted/60",
+            )}
+          >
+            {influentialOnly ? "Influential" : "All edges"}
           </button>
           <button
             type="button"

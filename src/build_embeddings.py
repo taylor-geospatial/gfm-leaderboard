@@ -43,7 +43,10 @@ MANUAL_S2_IDS: dict[str, str] = {
 S2_BATCH_URL = "https://api.semanticscholar.org/graph/v1/paper/batch"
 S2_MATCH_URL = "https://api.semanticscholar.org/graph/v1/paper/search/match"
 S2_SEARCH_URL = "https://api.semanticscholar.org/graph/v1/paper/search"
-S2_FIELDS = "paperId,externalIds,title,embedding.specter_v2,references.paperId"
+S2_FIELDS = (
+    "paperId,externalIds,title,embedding.specter_v2,"
+    "references.paperId,references.isInfluential"
+)
 
 import re
 
@@ -364,7 +367,13 @@ def build_outputs(
                 continue
             edge_set.add(key)
             # Emit edges keyed by S2 paperId (what NetworkView indexes nodes by).
-            edges.append({"source": src_sid, "target": tgt_sid, "influential": False})
+            edges.append(
+                {
+                    "source": src_sid,
+                    "target": tgt_sid,
+                    "influential": bool(ref.get("isInfluential")),
+                }
+            )
             in_degree[ref_pid] = in_degree.get(ref_pid, 0) + 1
 
     # Position fallback for papers without embedding.

@@ -48,6 +48,17 @@ export interface Paper {
   s2_id: string | null;
   arxiv_url: string | null;
   s2_url: string | null;
+  publication_date: string | null;
+  s2_tldr: string | null;
+  authors: Author[];
+}
+
+export interface Author {
+  authorId: string | null;
+  name: string;
+  hIndex: number | null;
+  paperCount: number | null;
+  citationCount: number | null;
 }
 
 export interface ResultRow {

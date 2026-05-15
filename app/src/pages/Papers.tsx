@@ -437,6 +437,37 @@ function PaperDetail({ paper }: { paper: Paper }) {
           </div>
         </div>
 
+        {/* 8b. Authors (Semantic Scholar) */}
+        {paper.authors && paper.authors.length > 0 ? (
+          <div>
+            <SectionHeader>Authors</SectionHeader>
+            <ul className="text-[12.5px] text-foreground space-y-0.5">
+              {paper.authors.slice(0, 8).map((a) => (
+                <li key={a.authorId ?? a.name} className="flex items-baseline gap-2">
+                  {a.authorId ? (
+                    <a
+                      href={`https://www.semanticscholar.org/author/${a.authorId}`}
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="hover:underline truncate"
+                    >
+                      {a.name}
+                    </a>
+                  ) : (
+                    <span className="truncate">{a.name}</span>
+                  )}
+                  <span className="text-2xs text-muted-foreground tabular-nums shrink-0">
+                    {a.hIndex != null ? `h${a.hIndex}` : ""}
+                  </span>
+                </li>
+              ))}
+              {paper.authors.length > 8 ? (
+                <li className="text-muted-foreground">+{paper.authors.length - 8} more</li>
+              ) : null}
+            </ul>
+          </div>
+        ) : null}
+
         {/* 9. Affiliations */}
         {paper.affiliations && paper.affiliations.length > 0 ? (
           <div>
