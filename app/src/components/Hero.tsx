@@ -36,7 +36,16 @@ export function Hero({ data }: { data: Dataset }) {
           in <span className="text-brand-500">Geospatial Foundation Models</span>
         </h1>
         <p className="mt-4 max-w-2xl text-[15px] md:text-base text-muted-foreground leading-relaxed">
-          An interactive companion to the position paper. {fmt(c.n_papers)} audited GeoFM papers,{" "}
+          An interactive companion to the{" "}
+          <a
+            href="https://arxiv.org/abs/2605.12678"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="underline underline-offset-2 hover:text-foreground"
+          >
+            arXiv paper
+          </a>
+          . {fmt(c.n_papers)} audited GeoFM papers,{" "}
           {fmt(data.manifest.n_results)} reported numbers — and three measurements showing why none
           of them can be ranked from the published record. Papers don't share evaluation, copy
           baselines without re-running, and bundle architecture changes with new pretraining corpora
@@ -54,13 +63,10 @@ export function Hero({ data }: { data: Dataset }) {
           >
             Reported numbers (use with caution)
           </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            disabled
-            className="gap-2 opacity-50 cursor-not-allowed"
-          >
-            <FileText className="h-4 w-4" /> Paper (Coming Soon)
+          <Button size="lg" variant="outline" asChild className="gap-2">
+            <a href="https://arxiv.org/abs/2605.12678" target="_blank" rel="noreferrer noopener">
+              <FileText className="h-4 w-4" /> Read the paper
+            </a>
           </Button>
         </div>
 

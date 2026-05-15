@@ -72,13 +72,10 @@ export function Header() {
         </nav>
 
         <div className="ml-auto flex items-center gap-1">
-          <Button
-            size="sm"
-            variant="outline"
-            disabled
-            className="gap-1.5 opacity-50 cursor-not-allowed"
-          >
-            Paper (Coming Soon)
+          <Button asChild size="sm" variant="outline" className="gap-1.5">
+            <a href="https://arxiv.org/abs/2605.12678" target="_blank" rel="noreferrer noopener">
+              Read the paper
+            </a>
           </Button>
           <Button asChild size="icon" variant="ghost" aria-label="GitHub">
             <a

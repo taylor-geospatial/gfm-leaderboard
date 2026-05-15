@@ -10,13 +10,20 @@ export function About({ data }: { data: Dataset }) {
       <article className="prose-tight max-w-3xl">
         <h2 className="text-2xl font-semibold tracking-tight">About this leaderboard</h2>
         <p className="mt-3 text-[15px] text-muted-foreground leading-relaxed">
-          This site is the interactive companion to the position paper{" "}
-          <em>"Nobody Knows What's State-of-the-Art in Geospatial Foundation Models"</em>. The paper
-          argues a coordination problem the community can fix: GeoFM papers don't share evaluation,
-          copy baselines without re-running, and bundle architecture changes with new pretraining
-          corpora — so reported leaderboard wins are indistinguishable from noise. The corpus of{" "}
-          {fmt(c.n_papers)} papers and {fmt(data.manifest.n_results)} reported numbers is fully
-          browsable here.
+          This site is the interactive companion to{" "}
+          <a
+            href="https://arxiv.org/abs/2605.12678"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="underline underline-offset-2 hover:text-foreground"
+          >
+            <em>"Nobody Knows What's State-of-the-Art in Geospatial Foundation Models"</em>
+          </a>
+          . The paper argues a coordination problem the community can fix: GeoFM papers don't
+          share evaluation, copy baselines without re-running, and bundle architecture changes
+          with new pretraining corpora — so reported leaderboard wins are indistinguishable from
+          noise. The corpus of {fmt(c.n_papers)} papers and {fmt(data.manifest.n_results)}{" "}
+          reported numbers is fully browsable here.
         </p>
 
         <h3 className="mt-8 text-lg font-semibold">Three measurements</h3>
@@ -87,7 +94,7 @@ export function About({ data }: { data: Dataset }) {
           {`@article{corley2026nobodyknows,
   title  = {Nobody Knows What's State-of-the-Art in Geospatial Foundation Models},
   author = {Corley, Isaac and others},
-  journal = {arXiv preprint},
+  journal = {arXiv preprint arXiv:2605.12678},
   year = {2026}
 }`}
         </pre>
@@ -117,9 +124,14 @@ export function About({ data }: { data: Dataset }) {
               <Badge variant="outline">MapLibre</Badge>
               <Badge variant="outline">TanStack Table</Badge>
             </div>
-            <span className="inline-flex items-center gap-1 text-muted-foreground italic">
-              Paper coming soon
-            </span>
+            <a
+              href="https://arxiv.org/abs/2605.12678"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="inline-flex items-center gap-1 text-foreground hover:text-brand-500 transition-colors text-[12.5px] font-medium underline underline-offset-2"
+            >
+              Read the paper on arXiv
+            </a>
           </CardContent>
         </Card>
       </aside>

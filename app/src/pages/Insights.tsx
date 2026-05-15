@@ -153,8 +153,16 @@ function FigureFrame({
       ) : null}
       {paperRef ? (
         <div className="text-[11.5px] text-muted-foreground">
-          See <span className="text-foreground font-medium">{paperRef}</span> in the paper.{" "}
-          <span className="text-muted-foreground italic">Paper coming soon.</span>
+          See <span className="text-foreground font-medium">{paperRef}</span> in the{" "}
+          <a
+            href="https://arxiv.org/abs/2605.12678"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="underline underline-offset-2 hover:text-foreground"
+          >
+            paper
+          </a>
+          .
         </div>
       ) : null}
     </div>
