@@ -43,13 +43,16 @@ export function Hero({ data }: { data: Dataset }) {
           so reported wins are indistinguishable from noise.
         </p>
         <div className="mt-6 flex flex-wrap items-center gap-2">
+          <Button size="lg" variant="accent" onClick={() => navigate("papers")} className="gap-2">
+            Open the papers index <ArrowRight className="h-4 w-4" />
+          </Button>
           <Button
             size="lg"
-            variant="accent"
+            variant="outline"
             onClick={() => navigate("leaderboard")}
             className="gap-2"
           >
-            Open the leaderboard <ArrowRight className="h-4 w-4" />
+            Reported numbers (use with caution)
           </Button>
           <Button
             size="lg"

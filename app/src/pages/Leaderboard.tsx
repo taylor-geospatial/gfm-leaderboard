@@ -31,6 +31,7 @@ import {
   useReactTable,
 } from "@tanstack/react-table";
 import {
+  AlertTriangle,
   BookOpen,
   Check,
   Code2,
@@ -677,6 +678,18 @@ export function Leaderboard({ data }: { data: Dataset }) {
 
   return (
     <div className="space-y-6">
+      {/* Caveat banner — the paper's whole point is that this table is not a ranking. */}
+      <div className="rounded-lg border border-amber-500/40 bg-amber-500/5 px-4 py-3 flex items-start gap-3">
+        <AlertTriangle className="h-4 w-4 text-amber-600 dark:text-amber-400 mt-0.5 shrink-0" />
+        <div className="text-[13px] leading-relaxed text-muted-foreground">
+          <span className="font-medium text-foreground">These are reported numbers, not a ranking.</span>{" "}
+          Rows aggregate model–benchmark numbers as printed in each paper, but the paper's audit
+          found ≥10-point spreads between papers reporting on the same tuple. Use the{" "}
+          <a href="#/findings" className="underline underline-offset-2 hover:text-foreground">Findings</a>{" "}
+          tab to see why direct comparison is unsafe.
+        </div>
+      </div>
+
       {/* Section 1: Benchmark chip strip */}
       <div className="sticky top-14 z-20 -mx-6 px-6 bg-background/85 backdrop-blur border-b border-border">
         <div className="flex items-center gap-2 py-3 overflow-x-auto scrollbar-thin">

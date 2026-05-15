@@ -7,6 +7,7 @@ import type {
   Manifest,
   Paper,
   ResultRow,
+  Scorecards,
   UmapPoint,
 } from "./types";
 import { dataUrl } from "./utils";
@@ -19,6 +20,7 @@ export interface Dataset {
   network: CitationNetwork | null;
   heatmap: BenchmarkHeatmap | null;
   manifest: Manifest;
+  scorecards: Scorecards;
   byPaperId: Map<string, Paper>;
 }
 
@@ -27,7 +29,7 @@ let cache: Promise<Dataset> | null = null;
 export function loadDataset(): Promise<Dataset> {
   if (cache) return cache;
   cache = (async () => {
-    const [papers, manifest, critique, results, umap, network, heatmap] = await Promise.all([
+    const [papers, manifest, critique, results, umap, network, heatmap, scorecards] = await Promise.all([
       fetch(dataUrl("papers.json")).then((r) => r.json() as Promise<Paper[]>),
       fetch(dataUrl("manifest.json")).then((r) => r.json() as Promise<Manifest>),
       fetch(dataUrl("meta/critique.json")).then((r) => r.json() as Promise<Critique>),
@@ -53,9 +55,22 @@ export function loadDataset(): Promise<Dataset> {
       fetch(dataUrl("meta/benchmark_heatmap.json"))
         .then((r) => (r.ok ? (r.json() as Promise<BenchmarkHeatmap>) : null))
         .catch(() => null),
+      fetch(dataUrl("scorecards.json"))
+        .then((r) => (r.ok ? (r.json() as Promise<Scorecards>) : ({} as Scorecards)))
+        .catch(() => ({}) as Scorecards),
     ]);
     const byPaperId = new Map(papers.map((p) => [p.id, p]));
-    return { papers, results, critique, umap, network, heatmap, manifest, byPaperId };
+    return {
+      papers,
+      results,
+      critique,
+      umap,
+      network,
+      heatmap,
+      manifest,
+      scorecards,
+      byPaperId,
+    };
   })();
   return cache;
 }

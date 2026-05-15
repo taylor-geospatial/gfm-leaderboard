@@ -1,0 +1,2130 @@
+{
+  "A2-MAE_A_spatial-temporal-spectral_unified_remote_sensing_pre-training_method_based_on_anchor-aware_masked_autoencoder.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "4 core benchmarks: bigearthnets2, eurosat, levircd, oscd",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "A_Sentinel-3_foundation_model_for_ocean_colour.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "AnySat_An_Earth_Observation_Model_for_Any_Resolutions_Scales_and_Modalities.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation Study. We evaluate the impact of several key\ndesign choices and report the results in Tab. 2. All results\nare presented for the Fol"
+    }
+  },
+  "Bridging_Remote_Sensors_with_Multisensor_Geospatial_Foundation_Models.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 1 core benchmark(s): bigearthnets2",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation studies or 800 epochs\nto achieve optimal results and maintain comparability with\nstate-of-the-art methods. When specified, 1% BigEa"
+    }
+  },
+  "CACo_Change-Aware_Sampling_and_Contrastive_Learning_for_Satellite_Images.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "3 core benchmarks: bigearthnets2, eurosat, oscd",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "CROMA_Remote_Sensing_Representations_with_Contrastive_Radar-Optical_Masked_Autoencoders.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 2 core benchmark(s): bigearthnets2, eurosat",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "CSP_Self-Supervised_Contrastive_Spatial_Pre-Training_for_Geospatial-Visual_Representations.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 1 core benchmark(s): fmow",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: ablation\nstudy on the iNat2018 dataset with different \u03bb and report\nthe results in Table 2. We can see that each component\ncontributes to the"
+    }
+  },
+  "Changen2_Multi-Temporal_Remote_Sensing_Generative_Change_Foundation_Model.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "pass",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 1 core benchmark(s): levircd",
+      "c3": "rerun/copied cue: Following the protocol in",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "Cross-Scale_MAE_A_Tale_of_Multiscale_Exploitation_in_Remote_Sensing.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "4 core benchmarks: eurosat, nwpuresisc45, potsdam, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation studies (Sec. 4.2).\nSec. 4.3, we briefly explore their robustness to scale variation and transfer performance to additional\ntasks. "
+    }
+  },
+  "Cross-Sensor_Self-Supervised_Training_and_Alignment_for_Remote_Sensing.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 2 core benchmark(s): eurosat, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation on label smoothing and patchwise alignment\nWe report in Table II downstream accuracies on X-STARS Fig. 5: Accuracy on downstream ta"
+    }
+  },
+  "CrossEarth_Geospatial_Vision_Foundation_Model_for_Domain_Generalizable_Remote_Sensing_Semantic_Segmentation.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 1 core benchmark(s): potsdam",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation Studies\n\nWe conduct ablation studies on CASID, as shown in Table\n7, with the following observations.\n(1) Effectiveness of Main Comp"
+    }
+  },
+  "CtxMIM_Context-Enhanced_Masked_Image_Modeling_for_Remote_Sensing_Image_Understanding.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "pass",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 2 core benchmark(s): eurosat, nwpuresisc45",
+      "c3": "rerun/copied cue: As reported in",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation studies of subsection IV-F. Hence, MIM methods with\n\n\fRaw image\n\n60%\n\nSimMIM\n\nCtxMIM\n\n70%\n\nSimMIM\n\nCtxMIM\n\n80%\n\nSimMIM\n\nCtxMIM\n\n2\n\n"
+    }
+  },
+  "DINO-MC_Self-supervised_Contrastive_Learning_for_Remote_Sensing_Imagery_with_Multi-sized_Local_Crops.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 2 core benchmark(s): eurosat, oscd",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "DOFA_Neural_Plasticity-Inspired_Foundation_Model_for_Observing_the_Earth_Crossing_Modalities.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 2 core benchmark(s): dior, nwpuresisc45",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: Ablation Studies\nWe conduct ablation studies to investigate the contributions of key components in DOFA\u2019s pretraining"
+    }
+  },
+  "DeCUR_Decoupling_Common_and_Unique_Representations_for_Multimodal_Self-supervised_Learning.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: Ablation studies\n\nDeformable attention We conduct frozen-encoder ablation on DeCUR for the\ndeformable attention with residual connection (RD"
+    }
+  },
+  "DeepAndes_A_Self-Supervised_Vision_Foundation_Model_for_Multispectral_Remote_Sensing_Imagery_of_the_Andes.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: over\n100 runs",
+      "c5": "controlled-comparison cue: Ablation Study\n1) Performance Comparison: As shown in Table V, we benchmark our DeepAndes backbone (FM3M)\nagainst several representative bas"
+    }
+  },
+  "DiffusionSat_A_Generative_Foundation_Model_for_Satellite_Imagery.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation on the efficacy of pretraining"
+    }
+  },
+  "EarthDial_Turning_Multi-sensory_Earth_Observations_to_Interactive_Dialogues.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "4 core benchmarks: aid, bigearthnets2, fmow, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "EarthGPT_A_Universal_Multi-modal_Large_Language_Model_for_Multi-sensor_Image_Comprehension_in_Remote_Sensing_Domain.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 1 core benchmark(s): nwpuresisc45",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "EarthPT_a_time_series_foundation_model_for_Earth_Observation.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "EarthView_A_Large_Scale_Remote_Sensing_Dataset_for_Self-Supervision.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "unknown",
+    "c4": "unknown",
+    "c5": "unknown",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no PDF text available",
+      "c4": "no PDF text available",
+      "c5": "no PDF text available"
+    }
+  },
+  "Embedding_Earth_Self-supervised_contrastive_pre-training_for_dense_land_cover_classification.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "FLAVARS_A_Multimodal_Foundational_Language_and_Vision_Alignment_Model_for_Remote_Sensing.pdf": {
+    "c1": "unknown",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "5 core benchmarks: aid, eurosat, fmow, nwpuresisc45, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "Falcon_A_Remote_Sensing_Vision-Language_Foundation_Model.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation studies for Falcon, showcasing the effectiveness of our training recipes.\nFinally, to address the critical absence of a highperform"
+    }
+  },
+  "Feature_Guided_Masked_Autoencoder_for_Self-supervised_Learning_in_Remote_Sensing.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 1 core benchmark(s): eurosat",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "FlexiMo_A_Flexible_Remote_Sensing_Foundation_Model.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 1 core benchmark(s): eurosat",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation studies are conducted to further substantiate\nthe efficacy of our approach.\n\nB. Performance on Image-level Tasks\n1) Performance on "
+    }
+  },
+  "FoMo-Bench_a_multi-modal_multi-scale_and_multi-task_Forest_Monitoring_Benchmark_for_remote_sensing_foundation_models.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "Fus-MAE_A_cross-attention-based_data_fusion_approach_for_Masked_Autoencoders_in_remote_sensing.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "GAIR_Improving_Multimodal_Geo-Foundation_Model_with_Geo-Aligned_Implicit_Representations.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation experiments on a Linux server with 4 NVIDIA\n5\n\n\fFigure 3. The model evaluation pipelines on three benchmarks covering 10 tasks. Spe"
+    }
+  },
+  "Galileo_Learning_Global_Local_Features_of_Many_Remote_Sensing_Modalities.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "pass",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "rerun/copied cue: re-run",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation experiments, we pretrain ViT-Tiny models for 200 epochs. We select four diverse tasks for segmentation (Sen1Floods11 and MADOS), im"
+    }
+  },
+  "Generic_Knowledge_Boosted_Pre-training_For_Remote_Sensing_Images.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "3 core benchmarks: dior, eurosat, nwpuresisc45",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "GeoChat_Grounded_Large_Vision-Language_Model_for_Remote_Sensing.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 2 core benchmark(s): aid, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "GeoLangBind_Unifying_Earth_Observation_with_Agglomerative_Vision-Language_Foundation_Models.pdf": {
+    "c1": "unknown",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "3 core benchmarks: aid, eurosat, fmow",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation studies by varying m1 and\nm2 to search for optimal weighting ratios. While more advanced merging methods exist (Akiba et al. 2025),"
+    }
+  },
+  "GeoViT_A_Versatile_Vision_Transformer_Architecture_for_Geospatial_Image_Analysis.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "Global_and_Local_Contrastive_Self-Supervised_Learning_for_Semantic_Segmentation_of_HR_Remote_Sensing_Images.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 1 core benchmark(s): potsdam",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "HyperFree_A_Channel-adaptive_and_Tuning-free_Foundation_Model_for_Hyperspectral_Remote_Sensing_Imagery.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "IaI-SimCLR_Multi-Modal_Multi-Objective_Contrastive_Learning_for_Sentinel-12_Imagery.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "pass",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "rerun/copied cue: as reported in",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "In-domain_representation_learning_for_remote_sensing.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "3 core benchmarks: eurosat, nwpuresisc45, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "LHRS-Bot_Empowering_Remote_Sensing_with_VGI-Enhanced_Large_Multimodal_Language_Model.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation Analysis\n\nIn this subsection, we carry out extensive ablation experiments to demonstrate\nthe effectiveness of our dataset as well a"
+    }
+  },
+  "MA3E_Masked_Angle-Aware_Autoencoder_for_Remote_Sensing_Images.pdf": {
+    "c1": "unknown",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "4 core benchmarks: aid, nwpuresisc45, potsdam, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "MM-VSF_Towards_Knowledge_Guided_Pretraining_Approaches_for_Multimodal_Foundation_Models_in_Remote_Sensing.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "MTP_Advancing_Remote_Sensing_Foundation_Model_via_Multi-Task_Pretraining.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "4 core benchmarks: dior, eurosat, nwpuresisc45, oscd",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation Study of Stage-wise Pretraining"
+    }
+  },
+  "MetaEarth_A_Generative_Foundation_Model_for_Global-Scale_Remote_Sensing_Image_Generation.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "unknown",
+    "c4": "unknown",
+    "c5": "unknown",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no PDF text available",
+      "c4": "no PDF text available",
+      "c5": "no PDF text available"
+    }
+  },
+  "OReole-FM_successes_and_challenges_toward_billion-parameter_foundation_models_for_high-resolution_satellite_imagery.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "pass",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "4 core benchmarks: aid, dior, potsdam, ucmerced",
+      "c3": "rerun/copied cue: as reported in",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "OlmoEarth_Stable_Latent_Image_Modeling_for_Multimodal_Earth_Observation.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: same\nrecipe"
+    }
+  },
+  "OmniSat_Self-Supervised_Modality_Fusion_for_Earth_Observation.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "pass",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "rerun/copied cue: As reported in",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation study in Sec. 4.4.\n4.1\n\nDatasets\n\nWeconsider three multimodal datasets: FLAIR [31], and the augmented TreeSatAI-TS [2]\nand PASTIS-H"
+    }
+  },
+  "Panopticon_Advancing_Any-Sensor_Foundation_Models_for_Earth_Observation.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 1 core benchmark(s): nwpuresisc45",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: Ablation studies\nWe perform ablation studies on both pre-training stages following the configuration of Section 3.5 but reducing the\nepochs "
+    }
+  },
+  "Presto_Lightweight_Pre-trained_Transformers_for_Remote_Sensing_Timeseries.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 1 core benchmark(s): eurosat",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "Prithvi-EO-20_A_Versatile_Multi-Temporal_Foundation_Model_for_Earth_Observation_Applications.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "Prithvi_Foundation_Models_for_Generalist_Geospatial_Artificial_Intelligence.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "Prithvi_WxC_Foundation_Model_for_Weather_and_Climate.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "RS5M_and_GeoRSCLIP_A_Large_Scale_Vision-Language_Dataset_and_A_Large_Vision-Language_Model_for_Remote_Sensing.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "3 core benchmarks: aid, eurosat, nwpuresisc45",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: Standard Deviation",
+      "c5": "controlled-comparison cue: Ablation Study\nCLIP\u2019s ViT-B-32 model is used to train the GeoRSCLIP\n(unless we specify).\n1) Per Subset Analysis: The RS5M dataset comprises "
+    }
+  },
+  "RSGPT_A_Remote_Sensing_Vision_Language_Model_and_Benchmark.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "RemoteCLIP_A_Vision_Language_Foundation_Model_for_Remote_Sensing.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "4 core benchmarks: aid, eurosat, nwpuresisc45, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation Study\nBackbone ablation: In Table V, we investigate the effects\nof the image and text backbones through ablation experiments\nconduc"
+    }
+  },
+  "Representation_Learning_for_Remote_Sensing_An_Unsupervised_Sensor_Fusion_Approach.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "RoMA_Scaling_up_Mamba-based_Foundation_Models_for_Remote_Sensing.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "3 core benchmarks: aid, oscd, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: \u00b11",
+      "c5": "controlled-comparison cue: ablation studies on RoMA\u2019s design choices.\nPretraining"
+    }
+  },
+  "S2MAE_A_Spatial-Spectral_Pretraining_Foundation_Model_for_Spectral_Remote_Sensing_Data.pdf": {
+    "c1": "unknown",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "3 core benchmarks: bigearthnets2, eurosat, oscd",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: ablation studies conducted to emphasize its efficacy.\n\n1. Introduction\nSpectral imaging, with its ability to capture a diverse spectrum of s"
+    }
+  },
+  "S4_Self-Supervised_Sensing_Across_the_Spectrum.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "SARATR-X_Toward_Building_a_Foundation_Model_for_SAR_Target_Recognition.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "SARVLM_A_Vision_Language_Foundation_Model_for_Semantic_Understanding_and_Target_Recognition_in_SAR_Imagery.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "SS-MAE_Spatial-Spectral_Masked_Autoencoder_for_Multisource_Remote_Sensing_Image_Classification.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation Study\n1) Effectiveness of Essential Components. To evaluate the\neffectiveness of the essential components of our proposed\nSS-MAE, w"
+    }
+  },
+  "SSL4EO-L_Datasets_and_Foundation_Models_for_Landsat_Imagery.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: \u00b11",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "SSL4EO-S12_A_Large-Scale_Multi-Modal_Multi-Temporal_Dataset_for_Self-Supervised_Learning_in_Earth_Observation.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "pass",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "3 core benchmarks: bigearthnets2, eurosat, oscd",
+      "c3": "rerun/copied cue: as reported in",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "SatMAE_Pre-training_Transformers_for_Temporal_and_Multi-Spectral_Satellite_Imagery.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 2 core benchmark(s): bigearthnets2, eurosat",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "SatMAE_Rethinking_Transformers_Pre-training_for_Multi-Spectral_Satellite_Imagery.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "4 core benchmarks: bigearthnets2, eurosat, nwpuresisc45, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation Studies: To demonstrate the efficacy of multiscale pre-training, we pre-train the ViT-Large model with\none, two and three scales. A"
+    }
+  },
+  "SatMamba_Development_of_Foundation_Models_for_Remote_Sensing_Imagery_Using_State_Space_Models.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation experiments with different scanning directions over\n100 epochs; (b) Full pretraining"
+    }
+  },
+  "SatSwinMAE_Efficient_Autoencoding_for_Multiscale_Time-series_Satellite_Imagery.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "SatVision-TOA_A_Geospatial_Foundation_Model_for_Coarse-Resolution_All-Sky_Remote_Sensing_Imagery.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "Scale-MAE_A_Scale-Aware_Masked_Autoencoder_for_Multiscale_Geospatial_Representation_Learning.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "3 core benchmarks: eurosat, nwpuresisc45, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation experiments presented\nin Section 4.2.\nWe pretrain a ViT-Large model with Scale-MAE using the\nFunctional Map of the World (FMoW) [12"
+    }
+  },
+  "SeaMo_A_Multi-Seasonal_and_Multimodal_Remote_Sensing_Foundation_Model.pdf": {
+    "c1": "unknown",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "3 core benchmarks: bigearthnets2, eurosat, oscd",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "Seasonal_Contrast_Unsupervised_Pre-Training_From_Uncurated_Remote_Sensing_Data.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "3 core benchmarks: bigearthnets2, eurosat, oscd",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: Ablation on the Locations Sampling Strategy In order\nto evaluate the effectiveness of our sampling strategy to collect uncurated images for "
+    }
+  },
+  "Self-Supervised_Learning_of_Remote_Sensing_Scene_Representations_Using_Contrastive_Multiview_Coding.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 2 core benchmark(s): aid, bigearthnets2",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "Self-Supervised_Material_and_Texture_Representation_Learning_for_Remote_Sensing_Tasks.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 2 core benchmark(s): bigearthnets2, oscd",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: Ablation Study\nConstraining Receptive Field. In Tab. 4 we study the effects of varying receptive field constraints on our method.\nAs mention"
+    }
+  },
+  "Semantic_Segmentation_of_Remote_Sensing_Images_With_Self-Supervised_Multitask_Representation_Learning.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 1 core benchmark(s): potsdam",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ABLATION STUDIES OF MULTITASK SELF-SUPERVISED REPRESENTATION\nLEARNING. ABLATIONS ARE PERFORMED ON 1) ATP, 2) CONTRASTIVE, AND 3)\nINPAINTING\n"
+    }
+  },
+  "SkyEyeGPT_Unifying_Remote_Sensing_Vision-Language_Tasks_via_Instruction_Tuning_with_Large_Language_Model.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation studies\nwith more detailed results in the supplementary materials.\nOur contributions can be summarized as follows:\n\u2022 Unified RS vis"
+    }
+  },
+  "SkyScript_A_Large_and_Semantically_Diverse_Vision-Language_Dataset_for_Remote_Sensing.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "4 core benchmarks: aid, eurosat, fmow, nwpuresisc45",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "SoftCon_Multi-Label_Guided_Soft_Contrastive_Learning_for_Efficient_Earth_Observation_Pretraining.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 2 core benchmark(s): eurosat, oscd",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation are without continual\npretraining"
+    }
+  },
+  "SpectralEarth_Training_Hyperspectral_Foundation_Models_at_Scale.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation Studies\na) Impact of temporal positives: Temporal positives provide a natural data augmentation for joint-embedding methods and hav"
+    }
+  },
+  "TOV_The_Original_Vision_Model_for_Optical_Remote_Sensing_Image_Understanding_via_Self-supervised_Learning.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "4 core benchmarks: aid, eurosat, potsdam, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "TerraMind_Large-Scale_Generative_Multimodality_for_Earth_Observation.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 1 core benchmark(s): eurosat",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: over 200\nruns",
+      "c5": "controlled-comparison cue: ablation experiment in a zero-shot\nsetup.\n\nFigure 16. Prediction distribution of the land use class \u201curban\u201d with\na sampling temperature of T"
+    }
+  },
+  "The_color_out_of_space_learning_self-supervised_representations_for_Earth_Observation_imagery.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 1 core benchmark(s): bigearthnets2",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "Tile2Vec_Unsupervised_Representation_Learning_for_Spatially_Distributed_Data.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "Towards_Scalable_Foundation_Model_for_Multi-modal_and_Hyperspectral_Geospatial_Data.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 2 core benchmark(s): bigearthnets2, eurosat",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation on LESS Attention Ratio ( dd21 ) and Decoder Depth. We evaluate the performance of\nLESS ViT across different model configurations o"
+    }
+  },
+  "Towards_a_Unified_Copernicus_Foundation_Model_for_Earth_Vision.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 1 core benchmark(s): bigearthnets2",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: Ablation study of Copernicus-FM. OA: overall accuracy, mAP: mean average precision, and RMSE: root mean squared error.\n\nBaseline [69] + dyna"
+    }
+  },
+  "USat_A_Unified_Self-Supervised_Encoder_for_Multi-Sensor_Satellite_Imagery.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 2 core benchmark(s): bigearthnets2, eurosat",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "UrbanCLIP_Learning_Text-Enhanced_Urban_Region_Profiling_with_Contrastive_Language-Image_Pretraining_from_the_Web.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation Studies\n\nNext, we conduct ablation studies to investigate the effectiveness\nof different components in UrbanCLIP, including the gen"
+    }
+  },
+  "WV-Net_A_foundation_model_for_SAR_WV-mode_satellite_imagery_trained_using_contrastive_self-supervised_learning_on_10_mil.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "WildSAT_Learning_Satellite_Image_Representations_from_Wildlife_Observations.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation studies to show the impact of\neach component of our approach, and show WildSAT outperforms recent cross-modal methods like GRAFT [4"
+    }
+  },
+  "A_generalizable_and_accessible_approach_to_machine_learning_with_global_satellite_imagery.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "Contrastive_Self-Supervised_Data_Fusion_for_Satellite_Imagery.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: \u00b10",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "Geographical_Supervision_Correction_for_Remote_Sensing_Representation_Learning.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation experiments to assess the impact of various strategies.\nThe pre-training dataset, the used comparison method, the\ndataset, the netw"
+    }
+  },
+  "RS-BYOL_Self-Supervised_Learning_for_Invariant_Representations_From_Multi-Spectral_and_SAR_Images.pdf": {
+    "c1": "unknown",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "only 1 core benchmark(s): nwpuresisc45",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "RingMo-Aerial_An_Aerial_Remote_Sensing_Foundation_Model_With_Affine_Transformation_Contrastive_Learning.pdf": {
+    "c1": "unknown",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=null",
+      "c2": "3 core benchmarks: aid, levircd, nwpuresisc45",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation Experiments\nAblation Experiments on pre-training\n\nWe utilize UperNet model on UAVID and Cascade RCNN\nmodel on Visdrone-DET. The com"
+    }
+  },
+  "RingMo-Lite_A_Remote_Sensing_Lightweight_Network_With_CNN-Transformer_Hybrid_Framework.pdf": {
+    "c1": "fail",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "6 core benchmarks: aid, dior, levircd, nwpuresisc45, potsdam, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "Self-Supervised_Vision_Transformers_for_Joint_SAR-Optical_Representation_Learning.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "Self-supervised_Audiovisual_Representation_Learning_for_Remote_Sensing_Data.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "3 core benchmarks: aid, nwpuresisc45, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation study. First,\nand most importantly, we notice that Batch Triplet Loss outperforms the underlying naive Triplet Loss in all benchmar"
+    }
+  },
+  "SpectralGPT_Spectral_Remote_Sensing_Foundation_Model.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "3 core benchmarks: bigearthnets2, eurosat, oscd",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: ablation studies.\nWe quantitatively assess the performance of pretrained\nfoundation models across four downstream tasks in terms of\nrecognit"
+    }
+  },
+  "GeoKR.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 2 core benchmark(s): potsdam, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation analysis to determine the efficacy\nof the various components of our proposed method. All of\nthe experiments demonstrate that our pr"
+    }
+  },
+  "RSP.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "3 core benchmarks: nwpuresisc45, potsdam, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "RVSA.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "3 core benchmarks: aid, potsdam, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "CSPT.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "pass",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "3 core benchmarks: aid, dior, potsdam",
+      "c3": "rerun/copied cue: as reported in",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "GFM.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 2 core benchmark(s): oscd, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation Studies\nWe perform multiple ablation studies on the choice of\ndistillation stage, student initialization, training objectives,\nthe "
+    }
+  },
+  "SwiMDiff.pdf": {
+    "c1": "fail",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "4 core benchmarks: bigearthnets2, eurosat, levircd, oscd",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation studies\nfocusing on specific components of our framework. This\nincludes an examination of the impact of scene-wide matching when ad"
+    }
+  },
+  "SAR-JEPA.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: Ablation Study\nHere, we analyze three key points of the proposed\nmethod. The first compares the local (LoMaR) and global\n(MAE) mask methods "
+    }
+  },
+  "SkySense.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "pass",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "5 core benchmarks: aid, dior, levircd, nwpuresisc45, potsdam",
+      "c3": "rerun/copied cue: following the setup of",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation study on the pre-training design.\n\n5. Discussions & Ablation Studies\n\nFigure 5. Comparison between (a) ESRI LandCover Map and (b)\nG"
+    }
+  },
+  "SemanticAware.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 1 core benchmark(s): levircd",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "HyperSIGMA.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "pass",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 1 core benchmark(s): oscd",
+      "c3": "rerun/copied cue: Following the protocol of",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "RingMoE.pdf": {
+    "c1": "fail",
+    "c2": "pass",
+    "c3": "pass",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "4 core benchmarks: aid, dior, nwpuresisc45, potsdam",
+      "c3": "rerun/copied cue: Following the setup in",
+      "c4": "variance cue: \u00b10",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "RingMo-Agent.pdf": {
+    "c1": "fail",
+    "c2": "pass",
+    "c3": "pass",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "3 core benchmarks: aid, nwpuresisc45, ucmerced",
+      "c3": "rerun/copied cue: Following the setup of",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation Study\n\nTo assess the effectiveness of key design components within RingMo-Agent, we conduct ablation experiments from\nthree perspec"
+    }
+  },
+  "RS-DFM.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "HSIGene.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "RS-vHeat.pdf": {
+    "c1": "fail",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "5 core benchmarks: aid, dior, levircd, nwpuresisc45, potsdam",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation studies. Many RSFMs primarily focus on optical data and do not support SAR input, so we compare RS-vHeat\nwith other RSFMs using opt"
+    }
+  },
+  "SatDiFuser.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation Studies\nWe ablate key design choices to validate our approach. We\nfirst investigate the impact of individual diffusion features\next"
+    }
+  },
+  "CMID.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 2 core benchmark(s): potsdam, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation experiments, we set the mask ratio, number of\nprototypes K, and the number of selected position-matched\npairs N to 0.6, 2048, and 2"
+    }
+  },
+  "GRAFT.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 2 core benchmark(s): bigearthnets2, eurosat",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "DynamicVis.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "4 core benchmarks: aid, fmow, levircd, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation Study and Architecture\nAnalysis\n\ncritical factors governing its behavior: the stage-wise\ntoken reduction ratio and the load-balanci"
+    }
+  },
+  "AlphaEarth.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: ablation results).\nWe use the 2021 release for the year 2021 (\"USGS/NLCD_RELEASES/2021_REL/NLCD\"), and\n\nthe 2019 release for all other years"
+    }
+  },
+  "TiMo.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: Ablation Study\n\nFinally, we focus on flood detection. We begin by evaluating the methods using the Sen12Flood dataset [60], which\nwas design"
+    }
+  },
+  "CGEarthEye.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "6 core benchmarks: aid, dior, fmow, levircd, nwpuresisc45, potsdam",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "MAPEX.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "SkySense-V2.pdf": {
+    "c1": "fail",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "7 core benchmarks: aid, bigearthnets2, dior, levircd, nwpuresisc45, oscd, potsdam",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "TESSERA.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "CRS-Diff.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "SenPa-MAE.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "OFA-Net.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "LeMeViT.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 1 core benchmark(s): potsdam",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "SMARTIES.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "4 core benchmarks: bigearthnets2, eurosat, nwpuresisc45, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "TerraFM.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 1 core benchmark(s): bigearthnets2",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation of components: SS =\nSelf-supervised contrastive learning, MAug\n= Modality Augmentation, Fus = Fusion, DC\n= Dual Centering. BEN = m-"
+    }
+  },
+  "SelectiveMAE.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "pass",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "3 core benchmarks: aid, dior, nwpuresisc45",
+      "c3": "rerun/copied cue: using the official code",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation experiments. We also conducted further experiments to test the\nscalability of the pipeline. All experiments are performed by\nfine-t"
+    }
+  },
+  "PIEViT.pdf": {
+    "c1": "fail",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "3 core benchmarks: dior, levircd, potsdam",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation studies on varying the neighborhood\nrange for PIEViT.\nMethod\nPIEViT-5x5\nPIEViT-7x7\nPIEViT\n\nBackbone\nViT-B\nViT-B\nViT-B\n\nDior\nmAP\n47."
+    }
+  },
+  "U-BARN.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "MAESTRO.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair\ncomparison"
+    }
+  },
+  "GASSL.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 1 core benchmark(s): fmow",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "controlled-comparison cue: ablation analysis we provide\nresults using different combinations of our methods. When\nappending only geo-location classification task or te"
+    }
+  },
+  "TEOChat.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 2 core benchmark(s): aid, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "EarthMarker.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "pass",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 2 core benchmark(s): aid, ucmerced",
+      "c3": "rerun/copied cue: Following the protocol of",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "SkySenseGPT.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "SatlasPretrain.pdf": {
+    "c1": "pass",
+    "c2": "pass",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "4 core benchmarks: aid, fmow, nwpuresisc45, ucmerced",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "LHRS-Bot-Nova.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: Ablation analysis\nEffectiveness of improved caption quality. To assess the effectiveness of data recaptioning, we compare the results from m"
+    }
+  },
+  "BillionPFM.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 1 core benchmark(s): potsdam",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "CSMAE.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: fair comparison"
+    }
+  },
+  "GeoPixel.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "MMEarth.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation study demonstrates that pretraining"
+    }
+  },
+  "S2-CGAN_SSL_Adversarial_Repr_for_Binary_CD.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "SSL_pretraining_enhances_CD_in_Sentinel2.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 1 core benchmark(s): oscd",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "SSL_Multisensor_Change_Detection.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "SSL_CD_in_Multiview_RS_Images.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: standard deviation",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "TaskRelated_SSL_for_RS_Image_CD.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "SSL_RS_Images_CD_at_Pixel_level.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "CMC_with_EO_for_SAR_Semantic_Segmentation.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: ablation study was conducted\nunder four combinations. If only SAR images were used for\npretraining"
+    }
+  },
+  "Continual_Barlow_Twins_for_RS_Semantic_Segmentation.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "pass",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 1 core benchmark(s): potsdam",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "variance cue: \u00b1 0",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "SSL_for_Few_Shot_Hyperspectral_Classification.pdf": {
+    "c1": "fail",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "fail",
+    "evidence": {
+      "c1": "extracted_info: weights_available=false",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "no controlled-comparison cues found in PDF text"
+    }
+  },
+  "ContrastCLIP_RS_groundlevel_satellite_pretraining.pdf": {
+    "c1": "pass",
+    "c2": "fail",
+    "c3": "fail",
+    "c4": "fail",
+    "c5": "pass",
+    "evidence": {
+      "c1": "extracted_info: weights_available=true",
+      "c2": "only 0 core benchmark(s); corpus uses non-core benchmarks",
+      "c3": "no rerun/copied cues found in PDF text",
+      "c4": "no variance cues found in PDF text",
+      "c5": "controlled-comparison cue: same training\nrecipe"
+    }
+  }
+}

@@ -1,12 +1,13 @@
 import { Loader2 } from "lucide-react";
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, useEffect } from "react";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { useDataset } from "./lib/data";
-import { useRoute } from "./lib/router";
+import { ROUTE_TITLE, useRoute } from "./lib/router";
 
 // Code-split heavy pages so MapLibre / Recharts / TanStack Table only download
 // when their route is actually visited. About is small enough to bundle eagerly.
+const Findings = lazy(() => import("./pages/Findings").then((m) => ({ default: m.Findings })));
 const Leaderboard = lazy(() =>
   import("./pages/Leaderboard").then((m) => ({ default: m.Leaderboard })),
 );
@@ -32,6 +33,10 @@ export function App() {
   const { route } = useRoute();
   const { data, loading, error } = useDataset();
 
+  useEffect(() => {
+    document.title = `State of GeoFMs · ${ROUTE_TITLE[route]}`;
+  }, [route]);
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -47,9 +52,10 @@ export function App() {
         </div>
       ) : data ? (
         <>
-          {route === "leaderboard" ? <Hero data={data} /> : null}
+          {route === "findings" ? <Hero data={data} /> : null}
           <main className="flex-1 container py-8 md:py-10">
             <Suspense fallback={<PageSkeleton />}>
+              {route === "findings" && <Findings data={data} />}
               {route === "leaderboard" && <Leaderboard data={data} />}
               {route === "insights" && <Insights data={data} />}
               {route === "map" && <MapView data={data} />}

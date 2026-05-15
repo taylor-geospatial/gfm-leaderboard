@@ -169,6 +169,19 @@ export interface CitationNetwork {
   edges: NetworkEdge[];
 }
 
+export type CheckStatus = "pass" | "fail" | "unknown";
+
+export interface Scorecard {
+  c1: CheckStatus;
+  c2: CheckStatus;
+  c3: CheckStatus;
+  c4: CheckStatus;
+  c5: CheckStatus;
+  evidence: Record<string, string>;
+}
+
+export type Scorecards = Record<string, Scorecard>;
+
 export interface BenchmarkHeatmap {
   models: string[];
   benchmarks: string[];

@@ -349,15 +349,22 @@ def build_outputs(
 
     for pid in pids:
         rec = s2_cache.get(pid) or {}
+        src_sid = rec.get("paperId")
+        if not src_sid:
+            continue
         for ref in rec.get("references") or []:
             ref_pid = s2_to_pid.get(ref.get("paperId"))
             if not ref_pid or ref_pid == pid:
                 continue
-            key = (pid, ref_pid)
+            tgt_sid = (s2_cache.get(ref_pid) or {}).get("paperId")
+            if not tgt_sid:
+                continue
+            key = (src_sid, tgt_sid)
             if key in edge_set:
                 continue
             edge_set.add(key)
-            edges.append({"source": pid, "target": ref_pid, "influential": False})
+            # Emit edges keyed by S2 paperId (what NetworkView indexes nodes by).
+            edges.append({"source": src_sid, "target": tgt_sid, "influential": False})
             in_degree[ref_pid] = in_degree.get(ref_pid, 0) + 1
 
     # Position fallback for papers without embedding.

@@ -44,6 +44,37 @@ interface PaperCardData {
   modelName: string;
   benchCount: number;
   searchBlob: string;
+  scorecard?: import("@/lib/types").Scorecard;
+}
+
+function ScorecardStrip({ s }: { s: import("@/lib/types").Scorecard }) {
+  const items: ("c1" | "c2" | "c3" | "c4" | "c5")[] = ["c1", "c2", "c3", "c4", "c5"];
+  return (
+    <div className="flex items-center gap-1 pt-0.5">
+      <span className="text-2xs uppercase tracking-wider text-muted-foreground/80 mr-1">Checklist</span>
+      {items.map((k) => {
+        const status = s[k];
+        const cls =
+          status === "pass"
+            ? "bg-emerald-500/15 text-emerald-700 dark:text-emerald-400"
+            : status === "fail"
+              ? "bg-rose-500/15 text-rose-700 dark:text-rose-400"
+              : "bg-muted text-muted-foreground";
+        return (
+          <span
+            key={k}
+            title={`${k.toUpperCase()}: ${s.evidence?.[k] ?? status}`}
+            className={cn(
+              "inline-flex items-center justify-center w-6 h-5 rounded font-mono text-[10px] tabular-nums",
+              cls,
+            )}
+          >
+            {k.toUpperCase()}
+          </span>
+        );
+      })}
+    </div>
+  );
 }
 
 function FamilyChip({ family }: { family: Family }) {
@@ -157,6 +188,9 @@ function PaperCard({
             </Badge>
           ))}
         </div>
+
+        {/* Reviewer scorecard (C1–C5) */}
+        {data.scorecard ? <ScorecardStrip s={data.scorecard} /> : null}
 
         {/* Footer */}
         <div className="flex items-center justify-between pt-1.5 border-t border-border/60 mt-0.5">
@@ -522,9 +556,10 @@ export function Papers({ data }: { data: Dataset }) {
         modelName,
         benchCount: benchCountByPaper.get(pdfKey(p.id)) ?? 0,
         searchBlob: blob,
+        scorecard: data.scorecards[p.id],
       };
     });
-  }, [data.papers, benchCountByPaper]);
+  }, [data.papers, data.scorecards, benchCountByPaper]);
 
   // Years dropdown
   const years = React.useMemo(() => {

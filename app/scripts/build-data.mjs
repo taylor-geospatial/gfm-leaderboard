@@ -150,6 +150,8 @@ function main() {
   const critique = readJson(resolve(SRC, "meta/critique.json"));
   const citationsPath = resolve(SRC, "cache/citations.json");
   const citations = existsSync(citationsPath) ? readJson(citationsPath) : {};
+  const scorecardsPath = resolve(SRC, "cache/scorecards.json");
+  const scorecards = existsSync(scorecardsPath) ? readJson(scorecardsPath) : {};
   const keyAlias = buildKeyAlias(extracted.map((e) => e._source_pdf));
   const umapPath = resolve(SRC, "meta/umap.json");
   const networkPath = resolve(SRC, "meta/citation_network.json");
@@ -351,6 +353,7 @@ function main() {
   writeJson(resolve(OUT, "manifest.json"), manifest);
   writeJson(resolve(OUT, "meta/critique.json"), critique);
   writeJson(resolve(OUT, "meta/benchmark_heatmap.json"), heatmap);
+  writeJson(resolve(OUT, "scorecards.json"), scorecards);
   if (umap) writeJson(resolve(OUT, "meta/umap.json"), umap);
   if (network) writeJson(resolve(OUT, "meta/citation_network.json"), network);
 

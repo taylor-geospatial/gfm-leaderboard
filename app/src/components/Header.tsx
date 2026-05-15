@@ -5,7 +5,8 @@ import { useEffect, useState } from "react";
 import { Button } from "./ui/Button";
 
 const NAV: { label: string; route: Route }[] = [
-  { label: "Leaderboard", route: "leaderboard" },
+  { label: "Findings", route: "findings" },
+  { label: "Reported numbers", route: "leaderboard" },
   { label: "Insights", route: "insights" },
   { label: "Map", route: "map" },
   { label: "Papers", route: "papers" },
@@ -34,7 +35,7 @@ export function Header() {
       <div className="container flex h-14 items-center gap-6">
         <button
           type="button"
-          onClick={() => navigate("leaderboard")}
+          onClick={() => navigate("findings")}
           className="flex items-center gap-2.5 text-left shrink-0"
         >
           {/* TG brandmark — brown square, periwinkle dot, red accent line */}

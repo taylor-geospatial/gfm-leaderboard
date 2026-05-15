@@ -80,7 +80,8 @@ export function UmapView({ data }: { data: Dataset }) {
 
   type EnrichedPoint = UmapPoint & { family: Family; hasPaper: boolean };
 
-  // Enrich points with family, centering 3D coords around origin
+  // Enrich points with family, centering both 2D and 3D coords around origin so the camera's
+  // fixed scale renders the cloud in-frame regardless of the raw coord range.
   const points = React.useMemo(() => {
     const raw = umap.map(
       (p): EnrichedPoint => ({
@@ -89,15 +90,41 @@ export function UmapView({ data }: { data: Dataset }) {
         hasPaper: byPaperId.has(p.id),
       }),
     );
+    if (raw.length === 0) return raw;
+    const cx2 = raw.reduce((s, p) => s + p.x, 0) / raw.length;
+    const cy2 = raw.reduce((s, p) => s + p.y, 0) / raw.length;
     const pts3 = raw.filter((p) => p.x3d != null);
-    if (pts3.length === 0) return raw;
-    const cx = pts3.reduce((s, p) => s + p.x3d!, 0) / pts3.length;
-    const cy = pts3.reduce((s, p) => s + p.y3d!, 0) / pts3.length;
-    const cz = pts3.reduce((s, p) => s + p.z3d!, 0) / pts3.length;
-    return raw.map((p) =>
-      p.x3d != null ? { ...p, x3d: p.x3d - cx, y3d: (p.y3d ?? 0) - cy, z3d: (p.z3d ?? 0) - cz } : p,
-    );
+    const cx3 = pts3.length ? pts3.reduce((s, p) => s + p.x3d!, 0) / pts3.length : 0;
+    const cy3 = pts3.length ? pts3.reduce((s, p) => s + p.y3d!, 0) / pts3.length : 0;
+    const cz3 = pts3.length ? pts3.reduce((s, p) => s + p.z3d!, 0) / pts3.length : 0;
+    return raw.map((p) => ({
+      ...p,
+      x: p.x - cx2,
+      y: p.y - cy2,
+      x3d: p.x3d != null ? p.x3d - cx3 : p.x3d,
+      y3d: p.y3d != null ? p.y3d - cy3 : p.y3d,
+      z3d: p.z3d != null ? p.z3d - cz3 : p.z3d,
+    }));
   }, [umap, byPaperId]);
+
+  // Auto-fit camera scale once we know the point extent so the cloud fills ~70% of the viewport.
+  const fitScale2D = React.useMemo(() => {
+    if (points.length === 0) return 60;
+    const ext = Math.max(
+      ...points.map((p) => Math.max(Math.abs(p.x), Math.abs(p.y))),
+    );
+    if (!ext || !Number.isFinite(ext)) return 60;
+    return Math.min(dims.W, dims.H) * 0.35 / ext;
+  }, [points, dims]);
+  const fitScale3D = React.useMemo(() => {
+    const pts = points.filter((p) => p.x3d != null);
+    if (pts.length === 0) return 60;
+    const ext = Math.max(
+      ...pts.map((p) => Math.max(Math.abs(p.x3d!), Math.abs(p.y3d!), Math.abs(p.z3d ?? 0))),
+    );
+    if (!ext || !Number.isFinite(ext)) return 60;
+    return Math.min(dims.W, dims.H) * 0.25 / ext;
+  }, [points, dims]);
 
   const filteredIds = React.useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -123,6 +150,15 @@ export function UmapView({ data }: { data: Dataset }) {
     ro.observe(el);
     return () => ro.disconnect();
   }, []);
+
+  // Once we know the extent of the point cloud, seed the camera to fit it.
+  const didFit = React.useRef(false);
+  React.useEffect(() => {
+    if (didFit.current || points.length === 0) return;
+    didFit.current = true;
+    setVs({ tx: 0, ty: 0, scale: fitScale2D });
+    setCam3((c) => ({ ...c, scale: fitScale3D }));
+  }, [points.length, fitScale2D, fitScale3D]);
 
   // Auto-rotate when in 3D mode and not dragging
   React.useEffect(() => {
@@ -178,7 +214,7 @@ export function UmapView({ data }: { data: Dataset }) {
         // Scale radius with depth
         const fov = 4;
         const persp = fov / (depth + fov > 0.1 ? depth + fov : 0.1);
-        const r3 = Math.max(1.5, R * persp * (cam3.scale / 60));
+        const r3 = Math.max(1.5, R * persp * (cam3.scale / Math.max(fitScale3D, 1)));
 
         ctx.beginPath();
         ctx.arc(sx, sy, isHov ? r3 + 2 : r3, 0, Math.PI * 2);
@@ -369,9 +405,9 @@ export function UmapView({ data }: { data: Dataset }) {
   // Reset view
   const resetView = () => {
     if (is3D) {
-      setCam3({ rotX: -0.4, rotY: 0.3, tx: 0, ty: 0, scale: 60 });
+      setCam3({ rotX: -0.4, rotY: 0.3, tx: 0, ty: 0, scale: fitScale3D });
     } else {
-      setVs({ tx: 0, ty: 0, scale: 60 });
+      setVs({ tx: 0, ty: 0, scale: fitScale2D });
     }
   };
 
@@ -381,9 +417,9 @@ export function UmapView({ data }: { data: Dataset }) {
     <div className="space-y-4">
       <div className="flex flex-col sm:flex-row sm:items-center gap-3">
         <div>
-          <h2 className="text-xl font-semibold tracking-tight">SPECTRE Embedding Space</h2>
+          <h2 className="text-xl font-semibold tracking-tight">SPECTER2 Embedding Space</h2>
           <p className="text-[12.5px] text-muted-foreground mt-0.5">
-            UMAP projection of Semantic Scholar SPECTRE v1 embeddings — {points.length} papers. Drag
+            UMAP projection of Semantic Scholar SPECTER2 embeddings — {points.length} papers. Drag
             to pan · scroll to zoom · click a point to open paper.
           </p>
         </div>

@@ -70,7 +70,8 @@ export function NetworkView({ data }: { data: Dataset }) {
   const [cursor, setCursor] = React.useState<{ x: number; y: number } | null>(null);
   const [selectedFamily, setSelectedFamily] = React.useState<Family | "all">("all");
   const [query, setQuery] = React.useState("");
-  const [influentialOnly, setInfluentialOnly] = React.useState(true);
+  // Semantic Scholar references are not tagged as "influential" in our pipeline; treat all
+  // intra-corpus citation edges equally.
   const [growMode, setGrowMode] = React.useState(false);
   const [yearProgress, setYearProgress] = React.useState(1);
   const [, bumpFrame] = React.useState(0);
@@ -78,25 +79,49 @@ export function NetworkView({ data }: { data: Dataset }) {
   const lastMouse = React.useRef({ x: 0, y: 0 });
   const tRef = React.useRef(0);
 
-  // Enrich nodes; compute z = year-axis (newest at front)
+  // Enrich nodes; compute z = year-axis (newest at front) and center the cloud around origin
+  // so the camera's scale renders it in-frame for any input coord range.
   const { nodes, yearMin, yearMax } = React.useMemo(() => {
     const raw = network?.nodes ?? [];
     const ys = raw.map((n) => n.year ?? 2020).filter((y) => y > 0);
     const ymin = ys.length ? Math.min(...ys) : 2019;
     const ymax = ys.length ? Math.max(...ys) : 2025;
     const span = Math.max(ymax - ymin, 1);
+    const cx = raw.length ? raw.reduce((s, n) => s + n.x, 0) / raw.length : 0;
+    const cy = raw.length ? raw.reduce((s, n) => s + n.y, 0) / raw.length : 0;
     const enriched = raw.map((n) => {
       const yr = n.year ?? ymin;
-      // Map year to z ∈ [-2.2, 2.2] (older → back, newer → front)
       const z = ((yr - ymin) / span - 0.5) * 4.4;
       return {
         ...n,
+        x: n.x - cx,
+        y: n.y - cy,
         z,
         hasPaper: byPaperId.has(n.id),
       };
     });
     return { nodes: enriched, yearMin: ymin, yearMax: ymax };
   }, [network, byPaperId]);
+
+  const fitScale2D = React.useMemo(() => {
+    if (nodes.length === 0) return 80;
+    const ext = Math.max(...nodes.map((n) => Math.max(Math.abs(n.x), Math.abs(n.y))));
+    if (!ext || !Number.isFinite(ext)) return 80;
+    return Math.min(dims.W, dims.H) * 0.35 / ext;
+  }, [nodes, dims]);
+  const fitScale3D = React.useMemo(() => {
+    if (nodes.length === 0) return 90;
+    const ext = Math.max(...nodes.map((n) => Math.max(Math.abs(n.x), Math.abs(n.y), Math.abs(n.z))));
+    if (!ext || !Number.isFinite(ext)) return 90;
+    return Math.min(dims.W, dims.H) * 0.25 / ext;
+  }, [nodes, dims]);
+  const didFit = React.useRef(false);
+  React.useEffect(() => {
+    if (didFit.current || nodes.length === 0) return;
+    didFit.current = true;
+    setVs({ tx: 0, ty: 0, scale: fitScale2D });
+    setCam3((c) => ({ ...c, scale: fitScale3D }));
+  }, [nodes.length, fitScale2D, fitScale3D]);
 
   const edges = network?.edges ?? ([] as NetworkEdge[]);
 
@@ -194,7 +219,6 @@ export function NetworkView({ data }: { data: Dataset }) {
 
       // Edges (only between visible nodes)
       for (const e of edges) {
-        if (influentialOnly && !e.influential) continue;
         const src = proj.get(e.source);
         const tgt = proj.get(e.target);
         if (!src || !tgt) continue;
@@ -288,7 +312,6 @@ export function NetworkView({ data }: { data: Dataset }) {
     }
 
     for (const e of edges) {
-      if (influentialOnly && !e.influential) continue;
       const src = nodeByS2.get(e.source);
       const tgt = nodeByS2.get(e.target);
       if (!src || !tgt) continue;
@@ -458,7 +481,8 @@ export function NetworkView({ data }: { data: Dataset }) {
 
   const resetView = () => {
     setVs({ tx: 0, ty: 0, scale: 80 });
-    setCam3({ rotX: -0.45, rotY: 0.5, tx: 0, ty: 0, scale: 90 });
+    setVs({ tx: 0, ty: 0, scale: fitScale2D });
+    setCam3({ rotX: -0.45, rotY: 0.5, tx: 0, ty: 0, scale: fitScale3D });
   };
 
   return (
@@ -467,12 +491,9 @@ export function NetworkView({ data }: { data: Dataset }) {
         <div>
           <h2 className="text-xl font-semibold tracking-tight">Citation Network</h2>
           <p className="text-[12.5px] text-muted-foreground mt-0.5">
-            Within-corpus citations — {nodes.length} papers,{" "}
-            {influentialOnly
-              ? `${edges.filter((e) => e.influential).length} influential`
-              : edges.length}{" "}
-            edges. Z-axis = publication year ({yearMin}–{yearMax}). Drag to rotate · scroll to zoom
-            · click hub to open paper.
+            Within-corpus citations — {nodes.length} papers, {edges.length} edges. Z-axis =
+            publication year ({yearMin}–{yearMax}). Drag to rotate · scroll to zoom · click hub
+            to open paper.
           </p>
         </div>
         <div className="sm:ml-auto flex items-center gap-2 flex-wrap">
@@ -539,18 +560,6 @@ export function NetworkView({ data }: { data: Dataset }) {
             )}
           >
             {growMode ? "Stop replay" : "Replay growth"}
-          </button>
-          <button
-            type="button"
-            onClick={() => setInfluentialOnly((v) => !v)}
-            className={cn(
-              "h-8 px-3 rounded-md border text-[12.5px] transition-colors",
-              influentialOnly
-                ? "border-brand-500 bg-brand-500/10 text-brand-500"
-                : "border-border text-muted-foreground hover:text-foreground hover:bg-muted/60",
-            )}
-          >
-            {influentialOnly ? "Influential" : "All edges"}
           </button>
           <button
             type="button"
